@@ -1,5 +1,6 @@
 # Panto
-# トークンの設定 ⇒保存したトークンは、デスクトップで"pantoo token.txt"を検索してみると見つかるはず！！
+# トークンの設定 
+## ⇒保存したトークンは、デスクトップで"pantoo token.txt"を検索してみると見つかるはず！！
 ## 1. Personal Access Token (PAT) を使用
 - 右上の **プロフィールアイコンから** Settings を選択。
 - Developer settings → Personal access tokens → Fined-grained Tokens → Generate new token をクリック。
