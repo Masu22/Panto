@@ -1,0 +1,33 @@
+name: Fetch Links Daily
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # 毎日午前0時（UTC）に実行（日本時間9時）
+  workflow_dispatch:  # 手動実行も可能
+
+jobs:
+  fetch_links:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: リポジトリをチェックアウト
+        uses: actions/checkout@v4
+
+      - name: Pythonをセットアップ
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: 必要なライブラリをインストール
+        run: pip install beautifulsoup4 requests
+
+      - name: リンクを取得して保存
+        run: python fetch_links.py
+
+      - name: 変更をコミットしてプッシュ
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions@github.com"
+          git add links.txt
+          git commit -m "Update links" || echo "No changes to commit"
+          git push
