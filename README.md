@@ -9,8 +9,12 @@
 ## 2. GitHub Secrets に PAT を設定
 - **リポジトリPantoにアクセス**して、Settings → Secrets and variables → Actions に移動。
 - New repository secret をクリックし、以下を設定：
-- Name: GH_TOKEN
+- Name: Pantoo
 - Value: 先ほどコピーした Personal Access Token を貼り付け。
 - Save して、GitHub Actions がこのトークンを使って認証できるようにします。  
 
 ## 3. GitHub Actions ワークフローを変更
+- .github/workflows/fetch_links.yml を次のように変更した
+- **with:
+          token: ${{ secrets.Pantoo }}  #ここでGitHub Secretを使用**
+- aa
