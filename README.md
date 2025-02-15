@@ -16,6 +16,6 @@
 ## 3. GitHub Actions ワークフローを変更
 - .github/workflows/fetch_links.yml を次の２か所を追加した
 >**with:  
-          token: ${{ secrets.Pantoo }}**  #ここでGitHub Secretを使用  
+>  token: ${{ secrets.Pantoo }}**  #ここでGitHub Secretを使用  
 >**env:  
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}**  #トークンを環境変数に設定  
+>  GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}**  #トークンを環境変数に設定  
