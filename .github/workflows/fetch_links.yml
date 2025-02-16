@@ -2,7 +2,7 @@ name: Fetch Links Daily
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # 毎日午前0時（UTC）に実行（日本時間9時）
+    - cron: "17 * * * *"  # 毎日午前0時（UTC）に実行（日本時間9時）
   workflow_dispatch:  # 手動実行も可能
 
 jobs:
