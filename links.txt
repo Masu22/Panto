@@ -78,3 +78,4 @@ geometric_topology.html
 vertex_algebras.html
 maps.html
 group_theory.html
+magnitude.html
