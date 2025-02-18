@@ -80,3 +80,4 @@ maps.html
 group_theory.html
 magnitude.html
 geometric_Langlands.html
+homotopy_limit.html
