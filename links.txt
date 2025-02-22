@@ -84,3 +84,5 @@ homotopy_limit.html
 equivariant_stable_homotopy.html
 Bousfield_localization.html
 entropy.html
+limits.html
+double_category.html
