@@ -87,3 +87,4 @@ entropy.html
 limits.html
 double_category.html
 Rota-Baxter_algebra.html
+discrete_group.html
