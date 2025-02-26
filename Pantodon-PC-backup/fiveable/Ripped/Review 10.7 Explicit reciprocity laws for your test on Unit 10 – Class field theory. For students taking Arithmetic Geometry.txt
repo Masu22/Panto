@@ -1,0 +1,1045 @@
+title:
+Review 10.7 Explicit reciprocity laws for your test on Unit 10 – Class field theory. For students taking Arithmetic Geometry
+pictures:
+https://storage.googleapis.com/static.prod.fiveable.me/search-images%2F%22Early_reciprocity_laws_Euler_quadratic_residues_Legendre_symbol_criterion_arithmetic_geometry_visual_representation%22-1a492483af1012408e401e386b9cb778.png
+https://storage.googleapis.com/static.prod.fiveable.me/search-images%2F%22Early_reciprocity_laws_Euler_quadratic_residues_Legendre_symbol_criterion_arithmetic_geometry_visual_representation%22-440px-Disqvisitiones-800.jpg
+https://storage.googleapis.com/static.prod.fiveable.me/search-images%2F%22Early_reciprocity_laws_Euler_quadratic_residues_Legendre_symbol_criterion_arithmetic_geometry_visual_representation%22-I3rMt.png
+main contents:
+markdown
+
+:
+
+Explicit reciprocity laws are powerful tools in arithmetic geometry, connecting number fields and their properties. These laws evolved from simple observations about quadratic residues to complex theorems covering higher-degree polynomials and global fields.
+
+n
+
+nFrom Euler's early work to modern formulations, reciprocity laws have shaped our understanding of number theory. They play crucial roles in primality testing, finite field construction, and solving Diophantine equations, bridging local and global perspectives in arithmetic geometry.
+
+n
+
+n## Historical development of reciprocity
+
+n- Reciprocity laws form a cornerstone of arithmetic geometry by establishing deep connections between number fields and their arithmetic properties
+
+n- These laws evolved from simple observations about quadratic residues to complex theorems encompassing higher-degree polynomials and global fields
+
+n
+
+n### Early reciprocity laws
+
+n
+
+n ###### ![fiveable_image_carousel](https://fiveable.me)
+
+n
+
+n- Originated with Euler's observations on quadratic residues in the 18th century
+
+n- Legendre symbol introduced to formalize the concept of quadratic residues modulo a prime
+
+n- Euler's criterion provided a method for determining quadratic residuosity using exponentiation
+
+n
+
+n### Gauss's contributions
+
+n- Gauss proved the quadratic reciprocity law in 1796, marking a significant breakthrough in number theory
+
+n- Introduced the Gauss sum to simplify proofs and generalizations of reciprocity laws
+
+n- Explored higher-degree reciprocity, laying groundwork for cubic and biquadratic reciprocity laws
+
+n
+
+n### Modern formulations
+
+n- Hilbert developed a unified approach to reciprocity laws using local and global fields
+
+n- Class field theory emerged as a framework for understanding reciprocity in a broader context
+
+n- Langlands program proposed deep connections between reciprocity laws and automorphic forms
+
+n
+
+n## Quadratic reciprocity law
+
+n
+
+n### Statement of the law
+
+n- Describes the relationship between the quadratic residues of two distinct odd primes p and q
+
+n- Formally stated as $(
+
+
+
+frac{p}{q})(
+
+
+
+frac{q}{p}) = (-1)^{
+
+
+
+frac{(p-1)(q-1)}{4}}$
+
+n- Provides a way to determine quadratic residuosity without extensive calculations
+
+n
+
+n### Proof techniques
+
+n- Gauss's lemma uses counting arguments to establish the law
+
+n- Eisenstein's proof employs geometric reasoning with lattice points
+
+n- Analytic proofs utilize properties of Gauss sums and L-functions
+
+n
+
+n### Applications in number theory
+
+n- Facilitates efficient primality testing algorithms (Miller-Rabin test)
+
+n- Enables the construction of finite fields with prescribed properties
+
+n- Plays a crucial role in solving Diophantine equations of the form $ax^2 + by^2 = c$
+
+n
+
+n## Higher-degree reciprocity laws
+
+n
+
+n### Cubic reciprocity
+
+n- Deals with cubic residues in number fields containing cube roots of unity
+
+n- Eisenstein's cubic reciprocity law generalizes quadratic reciprocity to cubic polynomials
+
+n- Involves more complex symbol calculations compared to quadratic reciprocity
+
+n
+
+n### Quartic reciprocity
+
+n- Addresses fourth-power residues in number fields containing fourth roots of unity
+
+n- Requires the use of Gaussian integers and their properties
+
+n- Connects to the theory of elliptic curves with complex multiplication
+
+n
+
+n### Eisenstein reciprocity
+
+n- Generalizes quadratic and cubic reciprocity laws
+
+n- Applies to number fields containing higher roots of unity
+
+n- Utilizes the properties of cyclotomic fields and their Galois groups
+
+n
+
+n## Explicit formulas for reciprocity
+
+n
+
+n### Hilbert symbol
+
+n- Bilinear pairing defined on the multiplicative group of a local field
+
+n- Takes values in the group of roots of unity
+
+n- Generalizes the Legendre symbol to higher-degree residues and local fields
+
+n
+
+n### Local field approach
+
+n- Focuses on p-adic fields and their completions
+
+n- Utilizes local class field theory to derive explicit formulas
+
+n- Connects local reciprocity laws to global ones through product formulas
+
+n
+
+n### Global field considerations
+
+n- Extends local reciprocity laws to global fields using idelic formulation
+
+n- Incorporates adelic techniques to study reciprocity laws uniformly across all primes
+
+n- Relates to the study of zeta functions and L-functions of number fields
+
+n
+
+n## Artin reciprocity law
+
+n
+
+n### Statement and significance
+
+n- Generalizes all previous reciprocity laws to arbitrary Galois extensions of number fields
+
+n- States that every abelian extension of a number field corresponds to a subgroup of the idele class group
+
+n- Provides a concrete realization of class field theory
+
+n
+
+n### Connection to class field theory
+
+n- Establishes isomorphism between the Galois group of an abelian extension and a quotient of the idele class group
+
+n- Allows classification of all abelian extensions of a given number field
+
+n- Leads to the Existence Theorem and Uniqueness Theorem in class field theory
+
+n
+
+n### Generalizations and extensions
+
+n- Non-abelian reciprocity laws extend Artin's ideas to non-abelian Galois groups
+
+n- Langlands reciprocity conjecture proposes a vast generalization to higher-dimensional representations
+
+n- Connects to the theory of automorphic forms and representations of adelic groups
+
+n
+
+n## Computational aspects
+
+n
+
+n### Algorithms for symbol calculation
+
+n- Efficient methods for computing Legendre and Jacobi symbols using quadratic reciprocity
+
+n- Tonelli-Shanks algorithm for finding modular square roots
+
+n- Algorithms for computing higher-degree residue symbols (cubic, quartic)
+
+n
+
+n### Efficiency considerations
+
+n- Time complexity analysis of symbol computation algorithms
+
+n- Space-time tradeoffs in implementing reciprocity laws
+
+n- Optimization techniques for large-scale computations in number fields
+
+n
+
+n### Software implementations
+
+n- Computer algebra systems (SageMath, PARI/GP) provide built-in functions for reciprocity calculations
+
+n- Specialized libraries for number theory computations (FLINT, NTL)
+
+n- High-performance implementations for cryptographic applications
+
+n
+
+n## Applications in arithmetic geometry
+
+n
+
+n### Elliptic curves
+
+n- Reciprocity laws play a crucial role in studying rational points on elliptic curves
+
+n- Modular approach to elliptic curves relies heavily on reciprocity laws and class field theory
+
+n- Weil pairing on elliptic curves connects to higher-degree reciprocity laws
+
+n
+
+n### Modular forms
+
+n- Reciprocity laws appear in the theory of congruences between modular forms
+
+n- Serre's modularity conjecture links Galois representations to modular forms via reciprocity
+
+n- L-functions of modular forms exhibit reciprocity properties related to functional equations
+
+n
+
+n### Galois representations
+
+n- Reciprocity laws describe the behavior of Galois representations under reduction modulo primes
+
+n- Local-global principles in the study of Galois representations rely on reciprocity laws
+
+n- Fontaine-Mazur conjecture relates p-adic Galois representations to geometric objects
+
+n
+
+n## Connections to other areas
+
+n
+
+n### Algebraic number theory
+
+n- Reciprocity laws form the foundation for studying ramification in number fields
+
+n- Ideal class groups and their behavior are intimately connected to reciprocity laws
+
+n- Decomposition laws for primes in number field extensions rely on reciprocity principles
+
+n
+
+n### Analytic number theory
+
+n- Dirichlet L-functions and their functional equations exhibit reciprocity properties
+
+n- Distribution of prime numbers in arithmetic progressions connects to quadratic reciprocity
+
+n- Analytic class number formula relates special values of L-functions to class groups via reciprocity
+
+n
+
+n### Cryptography
+
+n- Public-key cryptosystems (RSA, ElGamal) rely on computational aspects of reciprocity laws
+
+n- Quadratic residuosity problem, fundamental to some cryptographic protocols, stems from quadratic reciprocity
+
+n- Pairing-based cryptography utilizes higher-degree reciprocity laws and their efficient computation
+
+n
+
+n## Open problems and conjectures
+
+n
+
+n### Langlands program
+
+n- Proposes a vast generalization of reciprocity laws to higher-dimensional representations
+
+n- Seeks to unify number theory, algebraic geometry, and representation theory
+
+n- Functional equation conjecture for L-functions generalizes classical reciprocity laws
+
+n
+
+n### Birch and Swinnerton-Dyer conjecture
+
+n- Relates arithmetic properties of elliptic curves to the behavior of their L-functions
+
+n- Involves deep reciprocity principles connecting local and global information
+
+n- Has implications for the study of rational points on elliptic curves over number fields
+
+n
+
+n### Reciprocity laws in higher dimensions
+
+n- Generalization of reciprocity laws to higher-dimensional varieties
+
+n- Study of étale cohomology and its connection to reciprocity in arithmetic geometry
+
+n- Iwasawa theory and its applications to understanding reciprocity in p-adic settings
+
+,
+
+cheatsheet
+terms:
+Langlands Program
+The Langlands Program is a series of interconnected conjectures and theories that aim to relate number theory and representation theory, particularly concerning the connections between Galois groups and automorphic forms. This program serves as a unifying framework, linking various mathematical concepts, such as modular forms and l-adic representations, with implications for understanding solutions to Diophantine equations and the nature of L-functions.
+Galois Representations
+These are homomorphisms from a Galois group into a linear algebraic group, which encode how roots of polynomials behave under field extensions.
+Modular Forms
+These are complex functions that are invariant under a certain group of transformations and have significant applications in number theory, especially in connection with elliptic curves.
+L-functions
+These are complex functions associated with algebraic objects, such as numbers or varieties, that encode deep arithmetic information and have properties analogous to the Riemann zeta function.
+idele class group
+The idele class group is an important algebraic structure that arises in number theory and algebraic geometry, representing a way to understand the global properties of number fields through the lens of ideles. It essentially encapsulates information about the ideal class group of a number field by considering the equivalence classes of ideles, which are formal products of local completions of the field, allowing for a more refined analysis of the arithmetic of the field. This concept plays a crucial role in connecting different areas of study, particularly in understanding reciprocity laws and class field theory.
+Class group
+The class group of a number field is a group that measures the failure of unique factorization in its ring of integers, consisting of equivalence classes of fractional ideals.
+Ideles
+Ideles are a type of mathematical object used to generalize the notion of integers in number fields, representing elements as formal products of local factors that encode both archimedean and non-archimedean places.
+Artin L-function
+The Artin L-function is a complex function associated with a representation of a Galois group, which encapsulates information about various number-theoretic properties and is deeply connected to class field theory.
+Automorphic forms
+Automorphic forms are complex functions that exhibit symmetry under the action of a group, particularly in the context of algebraic groups over global fields. These forms are central to understanding the connections between number theory and geometry, providing a bridge to various mathematical structures including L-functions and modular forms.
+Modular Forms
+Functions on the upper half-plane that are invariant under the action of a subgroup of SL(2, ℤ) and have applications in number theory and combinatorics.
+L-functions
+Complex functions that encode information about number theoretic objects, related to automorphic forms through their spectral properties.
+Hecke Algebras
+Algebras generated by Hecke operators, which act on spaces of modular forms and automorphic forms, providing a framework for studying their properties.
+Galois Groups
+Galois groups are mathematical structures that capture the symmetries of the roots of polynomial equations, revealing how these roots can be permuted while preserving algebraic relationships. They are closely linked to fields and their extensions, particularly through the interplay between field theory and group theory. Understanding Galois groups can provide insight into various concepts, including solvability by radicals, the structure of rings of integers, class field theory, explicit reciprocity laws, and the behavior of periodic points in dynamical systems.
+Field Extension
+A larger field that contains a smaller field, allowing for the study of new elements and algebraic operations beyond those available in the original field.
+Normal Extension
+A type of field extension where every irreducible polynomial in the smaller field that has at least one root in the larger field splits completely into linear factors.
+Automorphism
+A mapping from a mathematical structure to itself that preserves the structure's operations and properties, crucial for defining symmetries in Galois theory.
+Emil Artin
+Emil Artin was a renowned Austrian mathematician known for his contributions to algebraic number theory and class field theory. His work laid the foundation for understanding how number fields behave under various algebraic operations, particularly in relation to the concepts of reciprocity laws and extensions of fields, which are essential in the broader context of rings of integers and algebraic number fields.
+Class Field Theory
+A major branch of algebraic number theory that studies abelian extensions of number fields and the relationships between their Galois groups and ideals.
+Reciprocity Law
+A fundamental theorem in number theory that provides criteria for determining whether a given integer is a quadratic residue modulo a prime.
+Galois Theory
+A branch of abstract algebra that connects field theory and group theory, describing symmetries in the roots of polynomial equations.
+Zeta Functions
+Zeta functions are complex functions that encode important number-theoretic properties, often used to study the distribution of prime numbers and other arithmetic properties. They provide a bridge between algebraic geometry and number theory, enabling deeper insights into the structure of varieties and schemes over number fields.
+L-functions
+A generalization of zeta functions that arise in number theory and algebraic geometry, encoding information about various arithmetic objects and their relationships.
+Class Number
+A key invariant in algebraic number theory that measures the failure of unique factorization in the ring of integers of a number field, often related to the behavior of zeta functions.
+Riemann Hypothesis
+A famous unsolved problem in mathematics that conjectures about the distribution of the zeros of the Riemann zeta function, with deep implications for number theory.
+l-functions
+L-functions are complex analytic functions that arise in number theory, particularly in the study of the distribution of prime numbers and modular forms. These functions generalize the Riemann zeta function and encapsulate deep arithmetic properties, connecting number theory with algebraic geometry and representation theory.
+Modular Forms
+Modular forms are complex analytic functions on the upper half-plane that satisfy specific transformation properties and are often used in number theory to study elliptic curves and l-functions.
+Hecke Algebras
+Hecke algebras are algebraic structures that play a key role in the theory of modular forms and l-functions, facilitating the action of Hecke operators on these forms.
+Riemann Hypothesis
+The Riemann Hypothesis is a conjecture about the distribution of the non-trivial zeros of the Riemann zeta function, with implications for the behavior of l-functions and their zeros.
+Artin Reciprocity
+Artin reciprocity is a fundamental result in number theory that establishes a connection between field extensions and the behavior of certain characters of Galois groups, specifically through the use of L-functions. This concept serves as a bridge between algebraic number theory and the theory of class fields, providing insights into how local and global fields relate to each other. The significance of Artin reciprocity extends into various areas, including representations of Galois groups and explicit reciprocity laws, which further illuminate its role in understanding the arithmetic of number fields.
+Galois Theory
+A branch of abstract algebra that studies the symmetries in the roots of polynomial equations and relates them to field extensions.
+Class Field Theory
+A major area of algebraic number theory that describes the abelian extensions of a number field in terms of its ideal class group.
+L-functions
+Complex functions associated with number fields, which encapsulate information about primes and can be used to study properties like distribution and reciprocity.
+Class Field Theory
+Class Field Theory is a fundamental area in algebraic number theory that establishes a connection between abelian extensions of number fields and the ideal class group of the field. This theory provides a framework to understand how the arithmetic of number fields relates to their Galois groups, specifically focusing on how the ideal class group can be related to certain extensions that preserve the structure of these fields.
+Galois Group
+The Galois group of a field extension is the group of automorphisms of the extension that fix the base field, capturing symmetries in the roots of polynomials.
+Ideal Class Group
+The ideal class group of a number field is the group formed by the equivalence classes of fractional ideals, highlighting how 'divisibility' behaves within that number field.
+Local Fields
+Local fields are extensions of the rational numbers or finite fields that provide a framework for studying local properties of number fields, such as completions with respect to a discrete valuation.
+Cohomology
+Cohomology is a mathematical tool that assigns algebraic invariants to topological spaces, providing a way to study their structure and properties. It captures information about the global and local features of spaces, linking algebraic concepts with geometric intuition. This connection plays a crucial role in various fields, including number theory and algebraic geometry, particularly in understanding the relationships between Galois representations and automorphic forms.
+Homology
+Homology is a related concept that measures the topological features of a space using chains and cycles, focusing on the 'holes' within the structure.
+Sheaf
+A sheaf is a mathematical structure that allows for the systematic tracking of local data attached to open sets of a topological space, essential in cohomological studies.
+Galois Cohomology
+Galois cohomology is a type of cohomology that studies fields and their extensions using Galois groups, linking number theory with algebraic topology.
+Jean-Pierre Serre
+Jean-Pierre Serre is a prominent French mathematician known for his significant contributions to algebraic geometry, topology, and number theory. His work has deeply influenced various fields within mathematics, particularly in relation to the development of modern concepts and conjectures surrounding arithmetic geometry.
+Grothendieck
+Alexander Grothendieck was a groundbreaking mathematician whose ideas laid the foundation for modern algebraic geometry, impacting many concepts that Serre later developed.
+Modularity Theorem
+The Modularity Theorem, also known as Serre's modularity conjecture, connects elliptic curves over the rational numbers with modular forms, playing a crucial role in number theory.
+l-adic Cohomology
+l-adic cohomology is a tool developed in part through Serre's work that allows for the study of algebraic varieties over finite fields and has connections to number theory and arithmetic geometry.
+local class field theory
+Local class field theory is a branch of number theory that connects local fields and their abelian extensions, providing a comprehensive understanding of how the arithmetic of local fields behaves in relation to Galois groups. It serves as a tool for understanding the structure of local fields, revealing insights into their extensions and leading to important reciprocity laws. This theory plays a crucial role in both local and global contexts, linking local fields to larger global structures and contributing to deeper mathematical concepts.
+Local Fields
+Complete fields with respect to a discrete valuation, often arising in number theory, characterized by the presence of a topology that allows for convergence and limits.
+Galois Theory
+A branch of abstract algebra that studies the symmetries of polynomial roots through the concept of Galois groups, which provide insights into field extensions.
+Reciprocity Law
+A statement in number theory that relates the solvability of certain polynomial equations to properties of prime numbers, often central in class field theory.
+Function Fields
+Function fields are fields consisting of rational functions, typically formed over a base field, which can be thought of as functions on algebraic varieties or schemes. They provide a framework for studying varieties over finite fields and are crucial in understanding various aspects of algebraic geometry and number theory.
+Algebraic Varieties
+Geometric objects defined as the solution sets of polynomial equations, serving as the central objects of study in algebraic geometry.
+Rational Functions
+Functions that can be expressed as the ratio of two polynomials, commonly used in constructing function fields.
+Global Sections
+Continuous or algebraic functions that can be defined globally over a variety, playing an important role in the structure of function fields.
+Weil Pairing
+Weil pairing is a bilinear pairing defined between the points of an algebraic variety and the elements of its Jacobian, which captures important geometric and arithmetic information about the variety. This concept is crucial for understanding how torsion points on abelian varieties interact with each other and helps establish connections with reciprocity laws, complex tori, and periodic points in the study of arithmetic geometry.
+Abelian Variety
+An abelian variety is a complete algebraic variety that has a group structure, allowing for the addition of points. They are fundamental objects in algebraic geometry and have applications in number theory.
+Jacobian
+The Jacobian of a curve is an abelian variety that parametrizes line bundles on the curve. It plays a key role in the study of divisors and linear equivalence.
+Torsion Point
+A torsion point is a point on an abelian variety that has a finite order with respect to the group operation. This means that there exists some positive integer such that adding the point to itself that many times results in the identity element.
+Birch and Swinnerton-Dyer Conjecture
+The Birch and Swinnerton-Dyer Conjecture is a major unsolved problem in number theory that relates the number of rational points on an elliptic curve to the behavior of its L-function at a specific point. This conjecture suggests that the rank of an elliptic curve, which measures the size of its group of rational points, is linked to the vanishing order of its L-function at the point s=1.
+Elliptic Curve
+A smooth, projective algebraic curve of genus one, which has a specified point defined over a given field, typically studied in relation to their rational points and group structure.
+L-function
+A complex function associated with a number-theoretic object that encodes information about the object's properties, including its prime factorization and behavior at certain points.
+Rank
+In the context of elliptic curves, the rank refers to the number of independent rational points on the curve, indicating the size of the group of rational solutions.
+Diophantine equations
+Diophantine equations are polynomial equations where the solutions are required to be integers or whole numbers. They are central to number theory and often relate to the search for rational points on algebraic varieties, connecting various mathematical concepts like algebraic geometry, arithmetic, and modular forms.
+Rational Points
+Points on an algebraic variety whose coordinates are rational numbers, often studied to understand the solutions of Diophantine equations.
+Height Function
+A measure used in number theory to quantify the complexity of rational points and can be essential in studying the solutions of Diophantine equations.
+Algebraic Varieties
+Geometric objects defined as the solution sets of systems of polynomial equations, where Diophantine equations seek integer solutions within these sets.
+Tonelli-Shanks Algorithm
+The Tonelli-Shanks algorithm is an efficient method used to compute square roots modulo a prime number. This algorithm is especially useful in number theory and cryptography, where finding square roots can be critical for solving equations and establishing properties of quadratic residues.
+Quadratic Residue
+A quadratic residue modulo a prime is an integer that is congruent to a perfect square modulo that prime.
+Legendre Symbol
+The Legendre symbol (a/p) is a notation that indicates whether 'a' is a quadratic residue modulo the prime 'p'. It takes the value 1 if 'a' is a residue, -1 if not, and 0 if 'a' is divisible by 'p'.
+Modular Arithmetic
+Modular arithmetic is a system of arithmetic for integers, where numbers wrap around upon reaching a specified value known as the modulus.
+Class number
+The class number is a fundamental invariant in algebraic number theory that measures the failure of unique factorization in the ring of integers of a number field. It provides crucial insight into the structure of ideal classes within the number field, linking properties of integers to algebraic objects and their behavior under various arithmetic operations.
+Ideal class group
+A group that represents the set of fractional ideals of a number field modulo the set of principal ideals, revealing information about factorization within the ring.
+Dedekind domain
+A specific type of integral domain where every non-zero proper ideal can be uniquely factored into prime ideals, leading to unique factorization in rings of integers.
+Dirichlet's unit theorem
+A theorem that describes the structure of the unit group of the ring of integers in a number field, establishing a connection between units and class numbers.
+Legendre Symbol
+The Legendre symbol is a mathematical notation that indicates whether a given integer is a quadratic residue modulo a prime number. It is denoted as $(
+Quadratic Residue
+An integer $a$ is called a quadratic residue modulo a prime $p$ if there exists an integer $x$ such that $x^2 
+Reciprocity Law
+A statement in number theory that provides criteria for determining when two Legendre symbols are equal, thus establishing a relationship between different primes.
+Jacobi Symbol
+A generalization of the Legendre symbol that can be used for any integer and is defined for composite moduli, denoted as $(
+Gauss Sum
+A Gauss sum is a specific type of exponential sum that arises in number theory, particularly in the study of quadratic residues and character sums. These sums can provide significant insights into the distribution of prime numbers and have important applications in algebraic number theory and arithmetic geometry, especially in relation to reciprocity laws.
+Quadratic Residues
+Numbers that can be expressed as the square of an integer modulo a prime. They play a crucial role in the evaluation of Gauss sums.
+Dirichlet Characters
+Arithmetic functions that generalize the concept of modular arithmetic, crucial for understanding the properties of Gauss sums.
+Reciprocity Laws
+Theorems that relate the solvability of certain equations to properties of prime numbers, where Gauss sums often serve as key components in their proofs.
+Jacobi symbols
+Jacobi symbols are a generalization of the Legendre symbol that provide a way to determine the quadratic residuosity of an integer with respect to an odd positive integer. They are especially useful in number theory, particularly in the context of reciprocity laws, where they facilitate computations involving quadratic residues and non-residues, aiding in the development of explicit reciprocity laws.
+Legendre Symbol
+The Legendre symbol $(
+Quadratic Residue
+An integer 'a' is a quadratic residue modulo 'n' if there exists an integer 'x' such that $x^2 
+Reciprocity Law
+A reciprocity law establishes a relationship between the solvability of certain congruences and the properties of primes involved, often expressed through symbols like Jacobi or Legendre.
+extensions of fields
+Extensions of fields refer to a way of creating a new field by introducing new elements that satisfy certain polynomial equations from a base field. This concept is crucial because it helps in understanding how different fields can relate to one another, especially in solving equations and studying algebraic structures. Extensions allow mathematicians to explore solutions that may not exist within the original field, thus paving the way for deeper insights into the behavior of numbers and functions.
+Algebraic Extension
+An extension of a field that is generated by adjoining roots of polynomial equations, where those roots are algebraic over the base field.
+Transcendental Extension
+An extension of a field that includes elements that are not roots of any polynomial equation with coefficients in the base field, such as the number $
+Field Homomorphism
+A structure-preserving map between two fields that respects the operations of addition and multiplication, often used to understand relationships between fields and their extensions.
+Quadratic Reciprocity Law
+The quadratic reciprocity law is a fundamental theorem in number theory that provides conditions under which two distinct prime numbers can be expressed as quadratic residues modulo each other. This law not only establishes a deep connection between the properties of prime numbers but also lays the groundwork for many advanced topics in arithmetic and algebraic number theory, especially in the study of explicit reciprocity laws.
+Legendre Symbol
+A notation that encapsulates whether a given integer is a quadratic residue modulo a prime, with values of 1, -1, or 0.
+Jacobi Symbol
+A generalization of the Legendre symbol that can be used with any odd positive integer, providing a way to determine quadratic residuosity.
+Quadratic Field
+A type of number field generated by the square root of a rational number, often playing a key role in exploring properties related to the quadratic reciprocity law.
+non-abelian reciprocity laws
+Non-abelian reciprocity laws are a generalization of classical reciprocity laws in number theory, extending the framework of abelian extensions to non-abelian extensions. These laws often arise in the context of class field theory and involve the relationships between Galois groups and local fields. They help in understanding how different algebraic structures can interact when viewed from the perspective of field extensions, specifically focusing on fields with non-commutative Galois groups.
+Galois Theory
+A branch of mathematics that studies the symmetries in the roots of polynomial equations, using group theory to connect field theory with group theory.
+Class Field Theory
+A major branch of algebraic number theory that studies abelian extensions of number fields and connects them to the ideal class group of the field.
+Galois Group
+The group formed by the automorphisms of a field extension that fix the base field, representing symmetries in the roots of polynomials.
+Formal groups
+Formal groups are algebraic structures that generalize the notion of abelian groups and are used in the study of algebraic geometry and number theory. They provide a framework to understand the behavior of objects such as elliptic curves and their interactions, especially in the context of formal power series and local fields.
+Formal power series
+An infinite series of the form $$a_0 + a_1 x + a_2 x^2 + 
+Tate module
+An important concept associated with formal groups that captures the p-adic representation of an abelian variety, allowing one to study its torsion points.
+Local fields
+Fields that are complete with respect to a discrete valuation, commonly used in number theory and provide a setting for studying formal groups.
+local reciprocity
+Local reciprocity refers to a property in number theory that connects local fields with the behavior of primes in those fields. It serves as a bridge between local and global aspects of number theory, allowing mathematicians to make connections between the arithmetic properties of numbers and their representations in various local contexts, such as completions at prime ideals.
+Local field
+A field that is complete with respect to a discrete valuation and has a finite residue field, commonly arising in the study of number theory.
+Global fields
+Fields that are either function fields of one variable over a finite field or number fields, which provide a broader context for studying algebraic properties.
+Reciprocity law
+A principle in number theory that describes how certain arithmetic properties of numbers relate to each other, typically involving congruences and quadratic residues.
+Number Fields
+Number fields are finite extensions of the rational numbers, forming a fundamental concept in algebraic number theory. They provide a framework for understanding the solutions to polynomial equations with rational coefficients, revealing deep connections to various areas of mathematics, including arithmetic geometry and algebraic number theory.
+Algebraic Integers
+Elements of a number field that are roots of monic polynomials with integer coefficients, playing a key role in the study of number fields and their ring of integers.
+Dedekind Domains
+A type of integral domain in which every non-zero proper ideal can be uniquely factored into prime ideals, providing a crucial structure for understanding number fields.
+Galois Theory
+A branch of mathematics that studies the symmetries of polynomial equations, particularly the relationships between field extensions and group theory, with applications to number fields.
+Hilbert symbol
+The Hilbert symbol is a mathematical notation that represents a pairing of two elements in the context of local fields, typically denoted as $(a,b)_p$. This symbol helps in understanding the structure of the group of units in local fields and plays a significant role in class field theory. It provides insights into the behavior of quadratic forms and reciprocity laws, making it essential for connecting various concepts in number theory and algebraic geometry.
+Local fields
+A local field is a complete field with respect to a discrete valuation, which can be either a finite extension of the rational numbers or a function field of a curve over a finite field.
+Class field theory
+Class field theory studies abelian extensions of number fields and provides deep connections between Galois theory and the arithmetic properties of numbers.
+Reciprocity laws
+Reciprocity laws are principles in number theory that describe how the solvability of polynomial equations relates across different fields, particularly in relation to prime ideals.
+Kummer Theory
+Kummer Theory is a branch of algebraic number theory that connects the study of the behavior of primes in number fields with the structure of abelian extensions. It specifically deals with the relationship between cyclotomic fields and the roots of unity, revealing how these concepts can be used to understand class groups and local fields.
+Cyclotomic Fields
+These are field extensions obtained by adjoining a primitive root of unity to the rational numbers, playing a central role in Kummer Theory.
+Class Field Theory
+This theory studies abelian extensions of number fields, providing a framework for understanding the connections between field extensions and class groups.
+Local Fields
+These are complete discrete valuation fields that arise in the study of number theory, particularly in relation to local class field theory and Kummer Theory.
+Langlands Program
+The Langlands Program is a series of interconnected conjectures and theories that aim to relate number theory and representation theory, particularly concerning the connections between Galois groups and automorphic forms. This program serves as a unifying framework, linking various mathematical concepts, such as modular forms and l-adic representations, with implications for understanding solutions to Diophantine equations and the nature of L-functions.
+Galois Representations
+These are homomorphisms from a Galois group into a linear algebraic group, which encode how roots of polynomials behave under field extensions.
+Modular Forms
+These are complex functions that are invariant under a certain group of transformations and have significant applications in number theory, especially in connection with elliptic curves.
+L-functions
+These are complex functions associated with algebraic objects, such as numbers or varieties, that encode deep arithmetic information and have properties analogous to the Riemann zeta function.
+idele class group
+The idele class group is an important algebraic structure that arises in number theory and algebraic geometry, representing a way to understand the global properties of number fields through the lens of ideles. It essentially encapsulates information about the ideal class group of a number field by considering the equivalence classes of ideles, which are formal products of local completions of the field, allowing for a more refined analysis of the arithmetic of the field. This concept plays a crucial role in connecting different areas of study, particularly in understanding reciprocity laws and class field theory.
+Class group
+The class group of a number field is a group that measures the failure of unique factorization in its ring of integers, consisting of equivalence classes of fractional ideals.
+Ideles
+Ideles are a type of mathematical object used to generalize the notion of integers in number fields, representing elements as formal products of local factors that encode both archimedean and non-archimedean places.
+Artin L-function
+The Artin L-function is a complex function associated with a representation of a Galois group, which encapsulates information about various number-theoretic properties and is deeply connected to class field theory.
+Automorphic forms
+Automorphic forms are complex functions that exhibit symmetry under the action of a group, particularly in the context of algebraic groups over global fields. These forms are central to understanding the connections between number theory and geometry, providing a bridge to various mathematical structures including L-functions and modular forms.
+Modular Forms
+Functions on the upper half-plane that are invariant under the action of a subgroup of SL(2, ℤ) and have applications in number theory and combinatorics.
+L-functions
+Complex functions that encode information about number theoretic objects, related to automorphic forms through their spectral properties.
+Hecke Algebras
+Algebras generated by Hecke operators, which act on spaces of modular forms and automorphic forms, providing a framework for studying their properties.
+Galois Groups
+Galois groups are mathematical structures that capture the symmetries of the roots of polynomial equations, revealing how these roots can be permuted while preserving algebraic relationships. They are closely linked to fields and their extensions, particularly through the interplay between field theory and group theory. Understanding Galois groups can provide insight into various concepts, including solvability by radicals, the structure of rings of integers, class field theory, explicit reciprocity laws, and the behavior of periodic points in dynamical systems.
+Field Extension
+A larger field that contains a smaller field, allowing for the study of new elements and algebraic operations beyond those available in the original field.
+Normal Extension
+A type of field extension where every irreducible polynomial in the smaller field that has at least one root in the larger field splits completely into linear factors.
+Automorphism
+A mapping from a mathematical structure to itself that preserves the structure's operations and properties, crucial for defining symmetries in Galois theory.
+Emil Artin
+Emil Artin was a renowned Austrian mathematician known for his contributions to algebraic number theory and class field theory. His work laid the foundation for understanding how number fields behave under various algebraic operations, particularly in relation to the concepts of reciprocity laws and extensions of fields, which are essential in the broader context of rings of integers and algebraic number fields.
+Class Field Theory
+A major branch of algebraic number theory that studies abelian extensions of number fields and the relationships between their Galois groups and ideals.
+Reciprocity Law
+A fundamental theorem in number theory that provides criteria for determining whether a given integer is a quadratic residue modulo a prime.
+Galois Theory
+A branch of abstract algebra that connects field theory and group theory, describing symmetries in the roots of polynomial equations.
+Zeta Functions
+Zeta functions are complex functions that encode important number-theoretic properties, often used to study the distribution of prime numbers and other arithmetic properties. They provide a bridge between algebraic geometry and number theory, enabling deeper insights into the structure of varieties and schemes over number fields.
+L-functions
+A generalization of zeta functions that arise in number theory and algebraic geometry, encoding information about various arithmetic objects and their relationships.
+Class Number
+A key invariant in algebraic number theory that measures the failure of unique factorization in the ring of integers of a number field, often related to the behavior of zeta functions.
+Riemann Hypothesis
+A famous unsolved problem in mathematics that conjectures about the distribution of the zeros of the Riemann zeta function, with deep implications for number theory.
+l-functions
+L-functions are complex analytic functions that arise in number theory, particularly in the study of the distribution of prime numbers and modular forms. These functions generalize the Riemann zeta function and encapsulate deep arithmetic properties, connecting number theory with algebraic geometry and representation theory.
+Modular Forms
+Modular forms are complex analytic functions on the upper half-plane that satisfy specific transformation properties and are often used in number theory to study elliptic curves and l-functions.
+Hecke Algebras
+Hecke algebras are algebraic structures that play a key role in the theory of modular forms and l-functions, facilitating the action of Hecke operators on these forms.
+Riemann Hypothesis
+The Riemann Hypothesis is a conjecture about the distribution of the non-trivial zeros of the Riemann zeta function, with implications for the behavior of l-functions and their zeros.
+Artin Reciprocity
+Artin reciprocity is a fundamental result in number theory that establishes a connection between field extensions and the behavior of certain characters of Galois groups, specifically through the use of L-functions. This concept serves as a bridge between algebraic number theory and the theory of class fields, providing insights into how local and global fields relate to each other. The significance of Artin reciprocity extends into various areas, including representations of Galois groups and explicit reciprocity laws, which further illuminate its role in understanding the arithmetic of number fields.
+Galois Theory
+A branch of abstract algebra that studies the symmetries in the roots of polynomial equations and relates them to field extensions.
+Class Field Theory
+A major area of algebraic number theory that describes the abelian extensions of a number field in terms of its ideal class group.
+L-functions
+Complex functions associated with number fields, which encapsulate information about primes and can be used to study properties like distribution and reciprocity.
+Class Field Theory
+Class Field Theory is a fundamental area in algebraic number theory that establishes a connection between abelian extensions of number fields and the ideal class group of the field. This theory provides a framework to understand how the arithmetic of number fields relates to their Galois groups, specifically focusing on how the ideal class group can be related to certain extensions that preserve the structure of these fields.
+Galois Group
+The Galois group of a field extension is the group of automorphisms of the extension that fix the base field, capturing symmetries in the roots of polynomials.
+Ideal Class Group
+The ideal class group of a number field is the group formed by the equivalence classes of fractional ideals, highlighting how 'divisibility' behaves within that number field.
+Local Fields
+Local fields are extensions of the rational numbers or finite fields that provide a framework for studying local properties of number fields, such as completions with respect to a discrete valuation.
+Cohomology
+Cohomology is a mathematical tool that assigns algebraic invariants to topological spaces, providing a way to study their structure and properties. It captures information about the global and local features of spaces, linking algebraic concepts with geometric intuition. This connection plays a crucial role in various fields, including number theory and algebraic geometry, particularly in understanding the relationships between Galois representations and automorphic forms.
+Homology
+Homology is a related concept that measures the topological features of a space using chains and cycles, focusing on the 'holes' within the structure.
+Sheaf
+A sheaf is a mathematical structure that allows for the systematic tracking of local data attached to open sets of a topological space, essential in cohomological studies.
+Galois Cohomology
+Galois cohomology is a type of cohomology that studies fields and their extensions using Galois groups, linking number theory with algebraic topology.
+Jean-Pierre Serre
+Jean-Pierre Serre is a prominent French mathematician known for his significant contributions to algebraic geometry, topology, and number theory. His work has deeply influenced various fields within mathematics, particularly in relation to the development of modern concepts and conjectures surrounding arithmetic geometry.
+Grothendieck
+Alexander Grothendieck was a groundbreaking mathematician whose ideas laid the foundation for modern algebraic geometry, impacting many concepts that Serre later developed.
+Modularity Theorem
+The Modularity Theorem, also known as Serre's modularity conjecture, connects elliptic curves over the rational numbers with modular forms, playing a crucial role in number theory.
+l-adic Cohomology
+l-adic cohomology is a tool developed in part through Serre's work that allows for the study of algebraic varieties over finite fields and has connections to number theory and arithmetic geometry.
+local class field theory
+Local class field theory is a branch of number theory that connects local fields and their abelian extensions, providing a comprehensive understanding of how the arithmetic of local fields behaves in relation to Galois groups. It serves as a tool for understanding the structure of local fields, revealing insights into their extensions and leading to important reciprocity laws. This theory plays a crucial role in both local and global contexts, linking local fields to larger global structures and contributing to deeper mathematical concepts.
+Local Fields
+Complete fields with respect to a discrete valuation, often arising in number theory, characterized by the presence of a topology that allows for convergence and limits.
+Galois Theory
+A branch of abstract algebra that studies the symmetries of polynomial roots through the concept of Galois groups, which provide insights into field extensions.
+Reciprocity Law
+A statement in number theory that relates the solvability of certain polynomial equations to properties of prime numbers, often central in class field theory.
+Function Fields
+Function fields are fields consisting of rational functions, typically formed over a base field, which can be thought of as functions on algebraic varieties or schemes. They provide a framework for studying varieties over finite fields and are crucial in understanding various aspects of algebraic geometry and number theory.
+Algebraic Varieties
+Geometric objects defined as the solution sets of polynomial equations, serving as the central objects of study in algebraic geometry.
+Rational Functions
+Functions that can be expressed as the ratio of two polynomials, commonly used in constructing function fields.
+Global Sections
+Continuous or algebraic functions that can be defined globally over a variety, playing an important role in the structure of function fields.
+Weil Pairing
+Weil pairing is a bilinear pairing defined between the points of an algebraic variety and the elements of its Jacobian, which captures important geometric and arithmetic information about the variety. This concept is crucial for understanding how torsion points on abelian varieties interact with each other and helps establish connections with reciprocity laws, complex tori, and periodic points in the study of arithmetic geometry.
+Abelian Variety
+An abelian variety is a complete algebraic variety that has a group structure, allowing for the addition of points. They are fundamental objects in algebraic geometry and have applications in number theory.
+Jacobian
+The Jacobian of a curve is an abelian variety that parametrizes line bundles on the curve. It plays a key role in the study of divisors and linear equivalence.
+Torsion Point
+A torsion point is a point on an abelian variety that has a finite order with respect to the group operation. This means that there exists some positive integer such that adding the point to itself that many times results in the identity element.
+Birch and Swinnerton-Dyer Conjecture
+The Birch and Swinnerton-Dyer Conjecture is a major unsolved problem in number theory that relates the number of rational points on an elliptic curve to the behavior of its L-function at a specific point. This conjecture suggests that the rank of an elliptic curve, which measures the size of its group of rational points, is linked to the vanishing order of its L-function at the point s=1.
+Elliptic Curve
+A smooth, projective algebraic curve of genus one, which has a specified point defined over a given field, typically studied in relation to their rational points and group structure.
+L-function
+A complex function associated with a number-theoretic object that encodes information about the object's properties, including its prime factorization and behavior at certain points.
+Rank
+In the context of elliptic curves, the rank refers to the number of independent rational points on the curve, indicating the size of the group of rational solutions.
+Diophantine equations
+Diophantine equations are polynomial equations where the solutions are required to be integers or whole numbers. They are central to number theory and often relate to the search for rational points on algebraic varieties, connecting various mathematical concepts like algebraic geometry, arithmetic, and modular forms.
+Rational Points
+Points on an algebraic variety whose coordinates are rational numbers, often studied to understand the solutions of Diophantine equations.
+Height Function
+A measure used in number theory to quantify the complexity of rational points and can be essential in studying the solutions of Diophantine equations.
+Algebraic Varieties
+Geometric objects defined as the solution sets of systems of polynomial equations, where Diophantine equations seek integer solutions within these sets.
+Tonelli-Shanks Algorithm
+The Tonelli-Shanks algorithm is an efficient method used to compute square roots modulo a prime number. This algorithm is especially useful in number theory and cryptography, where finding square roots can be critical for solving equations and establishing properties of quadratic residues.
+Quadratic Residue
+A quadratic residue modulo a prime is an integer that is congruent to a perfect square modulo that prime.
+Legendre Symbol
+The Legendre symbol (a/p) is a notation that indicates whether 'a' is a quadratic residue modulo the prime 'p'. It takes the value 1 if 'a' is a residue, -1 if not, and 0 if 'a' is divisible by 'p'.
+Modular Arithmetic
+Modular arithmetic is a system of arithmetic for integers, where numbers wrap around upon reaching a specified value known as the modulus.
+Class number
+The class number is a fundamental invariant in algebraic number theory that measures the failure of unique factorization in the ring of integers of a number field. It provides crucial insight into the structure of ideal classes within the number field, linking properties of integers to algebraic objects and their behavior under various arithmetic operations.
+Ideal class group
+A group that represents the set of fractional ideals of a number field modulo the set of principal ideals, revealing information about factorization within the ring.
+Dedekind domain
+A specific type of integral domain where every non-zero proper ideal can be uniquely factored into prime ideals, leading to unique factorization in rings of integers.
+Dirichlet's unit theorem
+A theorem that describes the structure of the unit group of the ring of integers in a number field, establishing a connection between units and class numbers.
+Legendre Symbol
+The Legendre symbol is a mathematical notation that indicates whether a given integer is a quadratic residue modulo a prime number. It is denoted as $(
+Quadratic Residue
+An integer $a$ is called a quadratic residue modulo a prime $p$ if there exists an integer $x$ such that $x^2 
+Reciprocity Law
+A statement in number theory that provides criteria for determining when two Legendre symbols are equal, thus establishing a relationship between different primes.
+Jacobi Symbol
+A generalization of the Legendre symbol that can be used for any integer and is defined for composite moduli, denoted as $(
+Gauss Sum
+A Gauss sum is a specific type of exponential sum that arises in number theory, particularly in the study of quadratic residues and character sums. These sums can provide significant insights into the distribution of prime numbers and have important applications in algebraic number theory and arithmetic geometry, especially in relation to reciprocity laws.
+Quadratic Residues
+Numbers that can be expressed as the square of an integer modulo a prime. They play a crucial role in the evaluation of Gauss sums.
+Dirichlet Characters
+Arithmetic functions that generalize the concept of modular arithmetic, crucial for understanding the properties of Gauss sums.
+Reciprocity Laws
+Theorems that relate the solvability of certain equations to properties of prime numbers, where Gauss sums often serve as key components in their proofs.
+Jacobi symbols
+Jacobi symbols are a generalization of the Legendre symbol that provide a way to determine the quadratic residuosity of an integer with respect to an odd positive integer. They are especially useful in number theory, particularly in the context of reciprocity laws, where they facilitate computations involving quadratic residues and non-residues, aiding in the development of explicit reciprocity laws.
+Legendre Symbol
+The Legendre symbol $(
+Quadratic Residue
+An integer 'a' is a quadratic residue modulo 'n' if there exists an integer 'x' such that $x^2 
+Reciprocity Law
+A reciprocity law establishes a relationship between the solvability of certain congruences and the properties of primes involved, often expressed through symbols like Jacobi or Legendre.
+extensions of fields
+Extensions of fields refer to a way of creating a new field by introducing new elements that satisfy certain polynomial equations from a base field. This concept is crucial because it helps in understanding how different fields can relate to one another, especially in solving equations and studying algebraic structures. Extensions allow mathematicians to explore solutions that may not exist within the original field, thus paving the way for deeper insights into the behavior of numbers and functions.
+Algebraic Extension
+An extension of a field that is generated by adjoining roots of polynomial equations, where those roots are algebraic over the base field.
+Transcendental Extension
+An extension of a field that includes elements that are not roots of any polynomial equation with coefficients in the base field, such as the number $
+Field Homomorphism
+A structure-preserving map between two fields that respects the operations of addition and multiplication, often used to understand relationships between fields and their extensions.
+Quadratic Reciprocity Law
+The quadratic reciprocity law is a fundamental theorem in number theory that provides conditions under which two distinct prime numbers can be expressed as quadratic residues modulo each other. This law not only establishes a deep connection between the properties of prime numbers but also lays the groundwork for many advanced topics in arithmetic and algebraic number theory, especially in the study of explicit reciprocity laws.
+Legendre Symbol
+A notation that encapsulates whether a given integer is a quadratic residue modulo a prime, with values of 1, -1, or 0.
+Jacobi Symbol
+A generalization of the Legendre symbol that can be used with any odd positive integer, providing a way to determine quadratic residuosity.
+Quadratic Field
+A type of number field generated by the square root of a rational number, often playing a key role in exploring properties related to the quadratic reciprocity law.
+non-abelian reciprocity laws
+Non-abelian reciprocity laws are a generalization of classical reciprocity laws in number theory, extending the framework of abelian extensions to non-abelian extensions. These laws often arise in the context of class field theory and involve the relationships between Galois groups and local fields. They help in understanding how different algebraic structures can interact when viewed from the perspective of field extensions, specifically focusing on fields with non-commutative Galois groups.
+Galois Theory
+A branch of mathematics that studies the symmetries in the roots of polynomial equations, using group theory to connect field theory with group theory.
+Class Field Theory
+A major branch of algebraic number theory that studies abelian extensions of number fields and connects them to the ideal class group of the field.
+Galois Group
+The group formed by the automorphisms of a field extension that fix the base field, representing symmetries in the roots of polynomials.
+Formal groups
+Formal groups are algebraic structures that generalize the notion of abelian groups and are used in the study of algebraic geometry and number theory. They provide a framework to understand the behavior of objects such as elliptic curves and their interactions, especially in the context of formal power series and local fields.
+Formal power series
+An infinite series of the form $$a_0 + a_1 x + a_2 x^2 + 
+Tate module
+An important concept associated with formal groups that captures the p-adic representation of an abelian variety, allowing one to study its torsion points.
+Local fields
+Fields that are complete with respect to a discrete valuation, commonly used in number theory and provide a setting for studying formal groups.
+local reciprocity
+Local reciprocity refers to a property in number theory that connects local fields with the behavior of primes in those fields. It serves as a bridge between local and global aspects of number theory, allowing mathematicians to make connections between the arithmetic properties of numbers and their representations in various local contexts, such as completions at prime ideals.
+Local field
+A field that is complete with respect to a discrete valuation and has a finite residue field, commonly arising in the study of number theory.
+Global fields
+Fields that are either function fields of one variable over a finite field or number fields, which provide a broader context for studying algebraic properties.
+Reciprocity law
+A principle in number theory that describes how certain arithmetic properties of numbers relate to each other, typically involving congruences and quadratic residues.
+Number Fields
+Number fields are finite extensions of the rational numbers, forming a fundamental concept in algebraic number theory. They provide a framework for understanding the solutions to polynomial equations with rational coefficients, revealing deep connections to various areas of mathematics, including arithmetic geometry and algebraic number theory.
+Algebraic Integers
+Elements of a number field that are roots of monic polynomials with integer coefficients, playing a key role in the study of number fields and their ring of integers.
+Dedekind Domains
+A type of integral domain in which every non-zero proper ideal can be uniquely factored into prime ideals, providing a crucial structure for understanding number fields.
+Galois Theory
+A branch of mathematics that studies the symmetries of polynomial equations, particularly the relationships between field extensions and group theory, with applications to number fields.
+Hilbert symbol
+The Hilbert symbol is a mathematical notation that represents a pairing of two elements in the context of local fields, typically denoted as $(a,b)_p$. This symbol helps in understanding the structure of the group of units in local fields and plays a significant role in class field theory. It provides insights into the behavior of quadratic forms and reciprocity laws, making it essential for connecting various concepts in number theory and algebraic geometry.
+Local fields
+A local field is a complete field with respect to a discrete valuation, which can be either a finite extension of the rational numbers or a function field of a curve over a finite field.
+Class field theory
+Class field theory studies abelian extensions of number fields and provides deep connections between Galois theory and the arithmetic properties of numbers.
+Reciprocity laws
+Reciprocity laws are principles in number theory that describe how the solvability of polynomial equations relates across different fields, particularly in relation to prime ideals.
+Kummer Theory
+Kummer Theory is a branch of algebraic number theory that connects the study of the behavior of primes in number fields with the structure of abelian extensions. It specifically deals with the relationship between cyclotomic fields and the roots of unity, revealing how these concepts can be used to understand class groups and local fields.
+Cyclotomic Fields
+These are field extensions obtained by adjoining a primitive root of unity to the rational numbers, playing a central role in Kummer Theory.
+Class Field Theory
+This theory studies abelian extensions of number fields, providing a framework for understanding the connections between field extensions and class groups.
+Local Fields
+These are complete discrete valuation fields that arise in the study of number theory, particularly in relation to local class field theory and Kummer Theory.
+Langlands Program
+The Langlands Program is a series of interconnected conjectures and theories that aim to relate number theory and representation theory, particularly concerning the connections between Galois groups and automorphic forms. This program serves as a unifying framework, linking various mathematical concepts, such as modular forms and l-adic representations, with implications for understanding solutions to Diophantine equations and the nature of L-functions.
+Galois Representations
+These are homomorphisms from a Galois group into a linear algebraic group, which encode how roots of polynomials behave under field extensions.
+Modular Forms
+These are complex functions that are invariant under a certain group of transformations and have significant applications in number theory, especially in connection with elliptic curves.
+L-functions
+These are complex functions associated with algebraic objects, such as numbers or varieties, that encode deep arithmetic information and have properties analogous to the Riemann zeta function.
+idele class group
+The idele class group is an important algebraic structure that arises in number theory and algebraic geometry, representing a way to understand the global properties of number fields through the lens of ideles. It essentially encapsulates information about the ideal class group of a number field by considering the equivalence classes of ideles, which are formal products of local completions of the field, allowing for a more refined analysis of the arithmetic of the field. This concept plays a crucial role in connecting different areas of study, particularly in understanding reciprocity laws and class field theory.
+Class group
+The class group of a number field is a group that measures the failure of unique factorization in its ring of integers, consisting of equivalence classes of fractional ideals.
+Ideles
+Ideles are a type of mathematical object used to generalize the notion of integers in number fields, representing elements as formal products of local factors that encode both archimedean and non-archimedean places.
+Artin L-function
+The Artin L-function is a complex function associated with a representation of a Galois group, which encapsulates information about various number-theoretic properties and is deeply connected to class field theory.
+Automorphic forms
+Automorphic forms are complex functions that exhibit symmetry under the action of a group, particularly in the context of algebraic groups over global fields. These forms are central to understanding the connections between number theory and geometry, providing a bridge to various mathematical structures including L-functions and modular forms.
+Modular Forms
+Functions on the upper half-plane that are invariant under the action of a subgroup of SL(2, ℤ) and have applications in number theory and combinatorics.
+L-functions
+Complex functions that encode information about number theoretic objects, related to automorphic forms through their spectral properties.
+Hecke Algebras
+Algebras generated by Hecke operators, which act on spaces of modular forms and automorphic forms, providing a framework for studying their properties.
+Galois Groups
+Galois groups are mathematical structures that capture the symmetries of the roots of polynomial equations, revealing how these roots can be permuted while preserving algebraic relationships. They are closely linked to fields and their extensions, particularly through the interplay between field theory and group theory. Understanding Galois groups can provide insight into various concepts, including solvability by radicals, the structure of rings of integers, class field theory, explicit reciprocity laws, and the behavior of periodic points in dynamical systems.
+Field Extension
+A larger field that contains a smaller field, allowing for the study of new elements and algebraic operations beyond those available in the original field.
+Normal Extension
+A type of field extension where every irreducible polynomial in the smaller field that has at least one root in the larger field splits completely into linear factors.
+Automorphism
+A mapping from a mathematical structure to itself that preserves the structure's operations and properties, crucial for defining symmetries in Galois theory.
+Emil Artin
+Emil Artin was a renowned Austrian mathematician known for his contributions to algebraic number theory and class field theory. His work laid the foundation for understanding how number fields behave under various algebraic operations, particularly in relation to the concepts of reciprocity laws and extensions of fields, which are essential in the broader context of rings of integers and algebraic number fields.
+Class Field Theory
+A major branch of algebraic number theory that studies abelian extensions of number fields and the relationships between their Galois groups and ideals.
+Reciprocity Law
+A fundamental theorem in number theory that provides criteria for determining whether a given integer is a quadratic residue modulo a prime.
+Galois Theory
+A branch of abstract algebra that connects field theory and group theory, describing symmetries in the roots of polynomial equations.
+Zeta Functions
+Zeta functions are complex functions that encode important number-theoretic properties, often used to study the distribution of prime numbers and other arithmetic properties. They provide a bridge between algebraic geometry and number theory, enabling deeper insights into the structure of varieties and schemes over number fields.
+L-functions
+A generalization of zeta functions that arise in number theory and algebraic geometry, encoding information about various arithmetic objects and their relationships.
+Class Number
+A key invariant in algebraic number theory that measures the failure of unique factorization in the ring of integers of a number field, often related to the behavior of zeta functions.
+Riemann Hypothesis
+A famous unsolved problem in mathematics that conjectures about the distribution of the zeros of the Riemann zeta function, with deep implications for number theory.
+l-functions
+L-functions are complex analytic functions that arise in number theory, particularly in the study of the distribution of prime numbers and modular forms. These functions generalize the Riemann zeta function and encapsulate deep arithmetic properties, connecting number theory with algebraic geometry and representation theory.
+Modular Forms
+Modular forms are complex analytic functions on the upper half-plane that satisfy specific transformation properties and are often used in number theory to study elliptic curves and l-functions.
+Hecke Algebras
+Hecke algebras are algebraic structures that play a key role in the theory of modular forms and l-functions, facilitating the action of Hecke operators on these forms.
+Riemann Hypothesis
+The Riemann Hypothesis is a conjecture about the distribution of the non-trivial zeros of the Riemann zeta function, with implications for the behavior of l-functions and their zeros.
+Artin Reciprocity
+Artin reciprocity is a fundamental result in number theory that establishes a connection between field extensions and the behavior of certain characters of Galois groups, specifically through the use of L-functions. This concept serves as a bridge between algebraic number theory and the theory of class fields, providing insights into how local and global fields relate to each other. The significance of Artin reciprocity extends into various areas, including representations of Galois groups and explicit reciprocity laws, which further illuminate its role in understanding the arithmetic of number fields.
+Galois Theory
+A branch of abstract algebra that studies the symmetries in the roots of polynomial equations and relates them to field extensions.
+Class Field Theory
+A major area of algebraic number theory that describes the abelian extensions of a number field in terms of its ideal class group.
+L-functions
+Complex functions associated with number fields, which encapsulate information about primes and can be used to study properties like distribution and reciprocity.
+Class Field Theory
+Class Field Theory is a fundamental area in algebraic number theory that establishes a connection between abelian extensions of number fields and the ideal class group of the field. This theory provides a framework to understand how the arithmetic of number fields relates to their Galois groups, specifically focusing on how the ideal class group can be related to certain extensions that preserve the structure of these fields.
+Galois Group
+The Galois group of a field extension is the group of automorphisms of the extension that fix the base field, capturing symmetries in the roots of polynomials.
+Ideal Class Group
+The ideal class group of a number field is the group formed by the equivalence classes of fractional ideals, highlighting how 'divisibility' behaves within that number field.
+Local Fields
+Local fields are extensions of the rational numbers or finite fields that provide a framework for studying local properties of number fields, such as completions with respect to a discrete valuation.
+Cohomology
+Cohomology is a mathematical tool that assigns algebraic invariants to topological spaces, providing a way to study their structure and properties. It captures information about the global and local features of spaces, linking algebraic concepts with geometric intuition. This connection plays a crucial role in various fields, including number theory and algebraic geometry, particularly in understanding the relationships between Galois representations and automorphic forms.
+Homology
+Homology is a related concept that measures the topological features of a space using chains and cycles, focusing on the 'holes' within the structure.
+Sheaf
+A sheaf is a mathematical structure that allows for the systematic tracking of local data attached to open sets of a topological space, essential in cohomological studies.
+Galois Cohomology
+Galois cohomology is a type of cohomology that studies fields and their extensions using Galois groups, linking number theory with algebraic topology.
+Jean-Pierre Serre
+Jean-Pierre Serre is a prominent French mathematician known for his significant contributions to algebraic geometry, topology, and number theory. His work has deeply influenced various fields within mathematics, particularly in relation to the development of modern concepts and conjectures surrounding arithmetic geometry.
+Grothendieck
+Alexander Grothendieck was a groundbreaking mathematician whose ideas laid the foundation for modern algebraic geometry, impacting many concepts that Serre later developed.
+Modularity Theorem
+The Modularity Theorem, also known as Serre's modularity conjecture, connects elliptic curves over the rational numbers with modular forms, playing a crucial role in number theory.
+l-adic Cohomology
+l-adic cohomology is a tool developed in part through Serre's work that allows for the study of algebraic varieties over finite fields and has connections to number theory and arithmetic geometry.
+local class field theory
+Local class field theory is a branch of number theory that connects local fields and their abelian extensions, providing a comprehensive understanding of how the arithmetic of local fields behaves in relation to Galois groups. It serves as a tool for understanding the structure of local fields, revealing insights into their extensions and leading to important reciprocity laws. This theory plays a crucial role in both local and global contexts, linking local fields to larger global structures and contributing to deeper mathematical concepts.
+Local Fields
+Complete fields with respect to a discrete valuation, often arising in number theory, characterized by the presence of a topology that allows for convergence and limits.
+Galois Theory
+A branch of abstract algebra that studies the symmetries of polynomial roots through the concept of Galois groups, which provide insights into field extensions.
+Reciprocity Law
+A statement in number theory that relates the solvability of certain polynomial equations to properties of prime numbers, often central in class field theory.
+Function Fields
+Function fields are fields consisting of rational functions, typically formed over a base field, which can be thought of as functions on algebraic varieties or schemes. They provide a framework for studying varieties over finite fields and are crucial in understanding various aspects of algebraic geometry and number theory.
+Algebraic Varieties
+Geometric objects defined as the solution sets of polynomial equations, serving as the central objects of study in algebraic geometry.
+Rational Functions
+Functions that can be expressed as the ratio of two polynomials, commonly used in constructing function fields.
+Global Sections
+Continuous or algebraic functions that can be defined globally over a variety, playing an important role in the structure of function fields.
+Weil Pairing
+Weil pairing is a bilinear pairing defined between the points of an algebraic variety and the elements of its Jacobian, which captures important geometric and arithmetic information about the variety. This concept is crucial for understanding how torsion points on abelian varieties interact with each other and helps establish connections with reciprocity laws, complex tori, and periodic points in the study of arithmetic geometry.
+Abelian Variety
+An abelian variety is a complete algebraic variety that has a group structure, allowing for the addition of points. They are fundamental objects in algebraic geometry and have applications in number theory.
+Jacobian
+The Jacobian of a curve is an abelian variety that parametrizes line bundles on the curve. It plays a key role in the study of divisors and linear equivalence.
+Torsion Point
+A torsion point is a point on an abelian variety that has a finite order with respect to the group operation. This means that there exists some positive integer such that adding the point to itself that many times results in the identity element.
+Birch and Swinnerton-Dyer Conjecture
+The Birch and Swinnerton-Dyer Conjecture is a major unsolved problem in number theory that relates the number of rational points on an elliptic curve to the behavior of its L-function at a specific point. This conjecture suggests that the rank of an elliptic curve, which measures the size of its group of rational points, is linked to the vanishing order of its L-function at the point s=1.
+Elliptic Curve
+A smooth, projective algebraic curve of genus one, which has a specified point defined over a given field, typically studied in relation to their rational points and group structure.
+L-function
+A complex function associated with a number-theoretic object that encodes information about the object's properties, including its prime factorization and behavior at certain points.
+Rank
+In the context of elliptic curves, the rank refers to the number of independent rational points on the curve, indicating the size of the group of rational solutions.
+Diophantine equations
+Diophantine equations are polynomial equations where the solutions are required to be integers or whole numbers. They are central to number theory and often relate to the search for rational points on algebraic varieties, connecting various mathematical concepts like algebraic geometry, arithmetic, and modular forms.
+Rational Points
+Points on an algebraic variety whose coordinates are rational numbers, often studied to understand the solutions of Diophantine equations.
+Height Function
+A measure used in number theory to quantify the complexity of rational points and can be essential in studying the solutions of Diophantine equations.
+Algebraic Varieties
+Geometric objects defined as the solution sets of systems of polynomial equations, where Diophantine equations seek integer solutions within these sets.
+Tonelli-Shanks Algorithm
+The Tonelli-Shanks algorithm is an efficient method used to compute square roots modulo a prime number. This algorithm is especially useful in number theory and cryptography, where finding square roots can be critical for solving equations and establishing properties of quadratic residues.
+Quadratic Residue
+A quadratic residue modulo a prime is an integer that is congruent to a perfect square modulo that prime.
+Legendre Symbol
+The Legendre symbol (a/p) is a notation that indicates whether 'a' is a quadratic residue modulo the prime 'p'. It takes the value 1 if 'a' is a residue, -1 if not, and 0 if 'a' is divisible by 'p'.
+Modular Arithmetic
+Modular arithmetic is a system of arithmetic for integers, where numbers wrap around upon reaching a specified value known as the modulus.
+Class number
+The class number is a fundamental invariant in algebraic number theory that measures the failure of unique factorization in the ring of integers of a number field. It provides crucial insight into the structure of ideal classes within the number field, linking properties of integers to algebraic objects and their behavior under various arithmetic operations.
+Ideal class group
+A group that represents the set of fractional ideals of a number field modulo the set of principal ideals, revealing information about factorization within the ring.
+Dedekind domain
+A specific type of integral domain where every non-zero proper ideal can be uniquely factored into prime ideals, leading to unique factorization in rings of integers.
+Dirichlet's unit theorem
+A theorem that describes the structure of the unit group of the ring of integers in a number field, establishing a connection between units and class numbers.
+Legendre Symbol
+The Legendre symbol is a mathematical notation that indicates whether a given integer is a quadratic residue modulo a prime number. It is denoted as $(
+Quadratic Residue
+An integer $a$ is called a quadratic residue modulo a prime $p$ if there exists an integer $x$ such that $x^2 
+Reciprocity Law
+A statement in number theory that provides criteria for determining when two Legendre symbols are equal, thus establishing a relationship between different primes.
+Jacobi Symbol
+A generalization of the Legendre symbol that can be used for any integer and is defined for composite moduli, denoted as $(
+Gauss Sum
+A Gauss sum is a specific type of exponential sum that arises in number theory, particularly in the study of quadratic residues and character sums. These sums can provide significant insights into the distribution of prime numbers and have important applications in algebraic number theory and arithmetic geometry, especially in relation to reciprocity laws.
+Quadratic Residues
+Numbers that can be expressed as the square of an integer modulo a prime. They play a crucial role in the evaluation of Gauss sums.
+Dirichlet Characters
+Arithmetic functions that generalize the concept of modular arithmetic, crucial for understanding the properties of Gauss sums.
+Reciprocity Laws
+Theorems that relate the solvability of certain equations to properties of prime numbers, where Gauss sums often serve as key components in their proofs.
+Jacobi symbols
+Jacobi symbols are a generalization of the Legendre symbol that provide a way to determine the quadratic residuosity of an integer with respect to an odd positive integer. They are especially useful in number theory, particularly in the context of reciprocity laws, where they facilitate computations involving quadratic residues and non-residues, aiding in the development of explicit reciprocity laws.
+Legendre Symbol
+The Legendre symbol $(
+Quadratic Residue
+An integer 'a' is a quadratic residue modulo 'n' if there exists an integer 'x' such that $x^2 
+Reciprocity Law
+A reciprocity law establishes a relationship between the solvability of certain congruences and the properties of primes involved, often expressed through symbols like Jacobi or Legendre.
+extensions of fields
+Extensions of fields refer to a way of creating a new field by introducing new elements that satisfy certain polynomial equations from a base field. This concept is crucial because it helps in understanding how different fields can relate to one another, especially in solving equations and studying algebraic structures. Extensions allow mathematicians to explore solutions that may not exist within the original field, thus paving the way for deeper insights into the behavior of numbers and functions.
+Algebraic Extension
+An extension of a field that is generated by adjoining roots of polynomial equations, where those roots are algebraic over the base field.
+Transcendental Extension
+An extension of a field that includes elements that are not roots of any polynomial equation with coefficients in the base field, such as the number $
+Field Homomorphism
+A structure-preserving map between two fields that respects the operations of addition and multiplication, often used to understand relationships between fields and their extensions.
+Quadratic Reciprocity Law
+The quadratic reciprocity law is a fundamental theorem in number theory that provides conditions under which two distinct prime numbers can be expressed as quadratic residues modulo each other. This law not only establishes a deep connection between the properties of prime numbers but also lays the groundwork for many advanced topics in arithmetic and algebraic number theory, especially in the study of explicit reciprocity laws.
+Legendre Symbol
+A notation that encapsulates whether a given integer is a quadratic residue modulo a prime, with values of 1, -1, or 0.
+Jacobi Symbol
+A generalization of the Legendre symbol that can be used with any odd positive integer, providing a way to determine quadratic residuosity.
+Quadratic Field
+A type of number field generated by the square root of a rational number, often playing a key role in exploring properties related to the quadratic reciprocity law.
+non-abelian reciprocity laws
+Non-abelian reciprocity laws are a generalization of classical reciprocity laws in number theory, extending the framework of abelian extensions to non-abelian extensions. These laws often arise in the context of class field theory and involve the relationships between Galois groups and local fields. They help in understanding how different algebraic structures can interact when viewed from the perspective of field extensions, specifically focusing on fields with non-commutative Galois groups.
+Galois Theory
+A branch of mathematics that studies the symmetries in the roots of polynomial equations, using group theory to connect field theory with group theory.
+Class Field Theory
+A major branch of algebraic number theory that studies abelian extensions of number fields and connects them to the ideal class group of the field.
+Galois Group
+The group formed by the automorphisms of a field extension that fix the base field, representing symmetries in the roots of polynomials.
+Formal groups
+Formal groups are algebraic structures that generalize the notion of abelian groups and are used in the study of algebraic geometry and number theory. They provide a framework to understand the behavior of objects such as elliptic curves and their interactions, especially in the context of formal power series and local fields.
+Formal power series
+An infinite series of the form $$a_0 + a_1 x + a_2 x^2 + 
+Tate module
+An important concept associated with formal groups that captures the p-adic representation of an abelian variety, allowing one to study its torsion points.
+Local fields
+Fields that are complete with respect to a discrete valuation, commonly used in number theory and provide a setting for studying formal groups.
+local reciprocity
+Local reciprocity refers to a property in number theory that connects local fields with the behavior of primes in those fields. It serves as a bridge between local and global aspects of number theory, allowing mathematicians to make connections between the arithmetic properties of numbers and their representations in various local contexts, such as completions at prime ideals.
+Local field
+A field that is complete with respect to a discrete valuation and has a finite residue field, commonly arising in the study of number theory.
+Global fields
+Fields that are either function fields of one variable over a finite field or number fields, which provide a broader context for studying algebraic properties.
+Reciprocity law
+A principle in number theory that describes how certain arithmetic properties of numbers relate to each other, typically involving congruences and quadratic residues.
+Number Fields
+Number fields are finite extensions of the rational numbers, forming a fundamental concept in algebraic number theory. They provide a framework for understanding the solutions to polynomial equations with rational coefficients, revealing deep connections to various areas of mathematics, including arithmetic geometry and algebraic number theory.
+Algebraic Integers
+Elements of a number field that are roots of monic polynomials with integer coefficients, playing a key role in the study of number fields and their ring of integers.
+Dedekind Domains
+A type of integral domain in which every non-zero proper ideal can be uniquely factored into prime ideals, providing a crucial structure for understanding number fields.
+Galois Theory
+A branch of mathematics that studies the symmetries of polynomial equations, particularly the relationships between field extensions and group theory, with applications to number fields.
+Hilbert symbol
+The Hilbert symbol is a mathematical notation that represents a pairing of two elements in the context of local fields, typically denoted as $(a,b)_p$. This symbol helps in understanding the structure of the group of units in local fields and plays a significant role in class field theory. It provides insights into the behavior of quadratic forms and reciprocity laws, making it essential for connecting various concepts in number theory and algebraic geometry.
+Local fields
+A local field is a complete field with respect to a discrete valuation, which can be either a finite extension of the rational numbers or a function field of a curve over a finite field.
+Class field theory
+Class field theory studies abelian extensions of number fields and provides deep connections between Galois theory and the arithmetic properties of numbers.
+Reciprocity laws
+Reciprocity laws are principles in number theory that describe how the solvability of polynomial equations relates across different fields, particularly in relation to prime ideals.
+Kummer Theory
+Kummer Theory is a branch of algebraic number theory that connects the study of the behavior of primes in number fields with the structure of abelian extensions. It specifically deals with the relationship between cyclotomic fields and the roots of unity, revealing how these concepts can be used to understand class groups and local fields.
+Cyclotomic Fields
+These are field extensions obtained by adjoining a primitive root of unity to the rational numbers, playing a central role in Kummer Theory.
+Class Field Theory
+This theory studies abelian extensions of number fields, providing a framework for understanding the connections between field extensions and class groups.
+Local Fields
+These are complete discrete valuation fields that arise in the study of number theory, particularly in relation to local class field theory and Kummer Theory.

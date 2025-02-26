@@ -1,0 +1,641 @@
+title:
+Review 3.2 Schemes and their morphisms for your test on Unit 3 – Sheaves and Schemes. For students taking Algebraic Geometry
+pictures:
+https://storage.googleapis.com/static.prod.fiveable.me/search-images%2F%22Definition_and_structure_of_schemes_in_algebraic_geometry_locally_ringed_spaces_structure_sheaf_morphisms%22-220px-Parabola_%2526_cubic_curve_in_projective_space.png
+main contents:
+markdown
+
+:
+
+Schemes and their morphisms are the building blocks of modern algebraic geometry. They provide a unified framework for studying geometric objects, from classical varieties to more abstract constructions. This powerful concept allows mathematicians to work with diverse structures using a common language.
+
+n
+
+nMorphisms between schemes are essential for understanding relationships between geometric objects. They enable comparisons, classifications, and the study of families of schemes. Properties like separatedness, properness, and flatness play crucial roles in analyzing these morphisms and their geometric implications.
+
+n
+
+n## Schemes as locally ringed spaces
+
+n### Definition and structure
+
+n
+
+n ###### ![fiveable_image_carousel](https://fiveable.me)
+
+n
+
+n- A scheme is a locally ringed space that is locally isomorphic to the spectrum of a commutative ring
+
+n- The structure sheaf of a scheme is a sheaf of commutative rings that encodes the local algebraic structure
+
+n- Schemes provide a unified framework for studying algebraic geometry, encompassing both affine and projective varieties
+
+n- The local nature of schemes allows for the study of geometric objects with varying properties at different points
+
+n
+
+n### Generalization of algebraic varieties
+
+n- Schemes can be thought of as a generalization of algebraic varieties, allowing for more flexibility in their construction and analysis
+
+n- Schemes extend the notion of algebraic varieties to include objects defined over arbitrary commutative rings, not just algebraically closed fields
+
+n- The structure sheaf of a scheme allows for the encoding of both geometric and algebraic properties in a unified manner
+
+n- Schemes provide a natural setting for studying arithmetic geometry, where the base ring is not necessarily an algebraically closed field
+
+n
+
+n## Constructing schemes: Affine vs projective
+
+n### Affine schemes
+
+n- Affine schemes are the most basic examples of schemes, constructed from the spectrum of a commutative ring
+
+n     - The spectrum of a ring R, denoted Spec(R), is the set of prime ideals of R with a topology defined by the Zariski topology
+
+n     - The structure sheaf of an affine scheme is determined by the ring R, with local rings given by localizations at prime ideals
+
+n- Examples of affine schemes include the affine line (Spec($
+
+
+
+mathbb{A}^1$)), affine plane (Spec($
+
+
+
+mathbb{A}^2$)), and affine space (Spec($
+
+
+
+mathbb{A}^n$))
+
+n- Affine schemes can be glued together to form more general schemes, such as projective schemes or quasi-projective schemes
+
+n
+
+n### Projective schemes
+
+n- Projective schemes are constructed by gluing together affine schemes, mimicking the construction of projective varieties
+
+n     - Projective space $
+
+
+
+mathbb{P}^n$ is a fundamental example of a projective scheme, obtained by gluing together n+1 copies of affine space $
+
+
+
+mathbb{A}^n$
+
+n     - Projective schemes can be defined using homogeneous ideals in polynomial rings, generalizing the notion of projective varieties
+
+n- Examples of projective schemes include projective lines ($
+
+
+
+mathbb{P}^1$), projective planes ($
+
+
+
+mathbb{P}^2$), and projective spaces ($
+
+
+
+mathbb{P}^n$)
+
+n- Projective schemes are important in the study of algebraic geometry, as they provide a compactification of affine schemes and allow for the study of global properties
+
+n
+
+n### Other examples of schemes
+
+n- Grassmann schemes parametrize subspaces of a fixed vector space
+
+n     - The Grassmannian $Gr(k,n)$ is a scheme that represents the functor of k-dimensional subspaces of an n-dimensional vector space
+
+n- Hilbert schemes parametrize closed subschemes of a fixed scheme with given Hilbert polynomial
+
+n     - The Hilbert scheme $Hilb^{P}(X)$ represents the functor of closed subschemes of X with Hilbert polynomial P
+
+n- Abelian schemes generalize the notion of abelian varieties to the setting of schemes
+
+n     - An abelian scheme is a smooth proper group scheme over a base scheme, generalizing the notion of an abelian variety
+
+n
+
+n## Morphisms of schemes and their properties
+
+n### Definition and local description
+
+n- A morphism of schemes is a continuous map between the underlying topological spaces that is compatible with the structure sheaves
+
+n- Morphisms of schemes can be described locally by ring homomorphisms between the corresponding affine coordinate rings
+
+n- The category of schemes, with morphisms as arrows, forms a fundamental object of study in algebraic geometry
+
+n- Morphisms allow for the comparison and relation of different schemes, enabling the study of their similarities and differences
+
+n
+
+n### Important properties of morphisms
+
+n- Separatedness: A morphism is separated if the diagonal morphism is a closed immersion, ensuring that fibers over points are well-behaved
+
+n     - Separatedness is a condition that ensures the uniqueness of limits and the Hausdorff property for the underlying topological space
+
+n- Properness: A morphism is proper if it is separated, of finite type, and universally closed, generalizing the notion of compact morphisms
+
+n     - Proper morphisms behave well under base change and have nice finiteness properties, making them important in algebraic geometry
+
+n- Flatness: A morphism is flat if it preserves the structure of fibers, allowing for well-behaved families of schemes
+
+n     - Flat morphisms are important in the study of deformations and moduli problems, where the fibers of the morphism represent the objects being classified
+
+n
+
+n### Composing and comparing morphisms
+
+n- Morphisms can be composed, allowing for the study of relationships between different schemes
+
+n- The composition of morphisms is associative and compatible with the structure sheaves, making the category of schemes a well-behaved object
+
+n- Fiber products and base change are important constructions in the study of morphisms, allowing for the comparison of schemes over different base schemes
+
+n- The study of morphisms and their properties is central to algebraic geometry, as it provides a way to relate and compare different geometric objects
+
+n
+
+n## Schemes unifying geometric concepts 
+
+n### Common language for geometric objects
+
+n- Schemes provide a common language for studying various geometric objects, including algebraic varieties, complex manifolds, and arithmetic schemes
+
+n- The structure sheaf of a scheme encodes both the algebraic and geometric properties of the object, allowing for a unified treatment
+
+n- Schemes allow for the study of geometric objects over arbitrary base rings, not just algebraically closed fields, enabling arithmetic and geometric applications
+
+n
+
+n### Moduli problems and classification
+
+n- The theory of schemes provides powerful tools for studying moduli problems, which aim to classify geometric objects with specified properties
+
+n- Moduli spaces, such as the moduli space of curves or the moduli space of vector bundles, can often be realized as schemes or stacks
+
+n- The language of schemes allows for a unified approach to the construction and study of moduli spaces, which play a central role in modern algebraic geometry
+
+n
+
+n### Applications in various fields
+
+n- Number theory: Arithmetic schemes are used to study Diophantine equations and arithmetic properties of varieties
+
+n     - The theory of schemes provides a framework for studying the arithmetic of algebraic varieties over number fields or finite fields
+
+n- Complex geometry: Schemes provide a framework for studying complex manifolds and their degenerations
+
+n     - The GAGA principle (Géométrie Algébrique et Géométrie Analytique) relates the algebraic and analytic properties of complex algebraic varieties
+
+n- Representation theory: Schemes arise naturally in the study of representations of algebraic groups and Lie algebras
+
+n     - The flag variety of a reductive algebraic group is a projective scheme that parametrizes certain subgroup schemes, playing a key role in representation theory
+
+,
+
+cheatsheet
+terms:
+Flat Morphism
+A flat morphism is a type of morphism between schemes that intuitively represents a situation where the fibers of a map behave nicely in terms of dimension and structure. More specifically, it ensures that the pullback of a module is exact, meaning that flatness maintains properties when passing through a morphism, which is crucial in various areas such as deformation theory and algebraic geometry.
+Exact Sequence
+A sequence of modules and homomorphisms where the image of one map equals the kernel of the next, reflecting a certain balance in structure.
+Fiber Product
+The categorical product of two schemes over a third scheme, giving a scheme that captures the idea of 'pulling back' the structure from both sources.
+Locally Ringed Space
+A space that has a stalk for each point, allowing local analysis using rings of functions defined near those points, essential for understanding schemes.
+Continuous Map
+A continuous map is a function between topological spaces that preserves the notion of closeness, meaning that the preimage of any open set is also open. In the context of schemes and their morphisms, continuity plays a crucial role as it ensures that the geometric properties are maintained when moving between different schemes, allowing for meaningful comparisons and transformations.
+Topological Space
+A set equipped with a topology, which defines the structure of open sets and allows for the formalization of concepts like convergence and continuity.
+Morphisms
+Maps between schemes that respect their structure and provide a way to compare or relate different algebraic objects.
+Open Set
+A subset of a topological space that, intuitively, does not include its boundary points and is fundamental in defining continuity and convergence.
+universality
+Universality in the context of schemes and their morphisms refers to a property of certain constructions that can be adapted to a wide range of situations, essentially allowing them to be used as universal examples for other cases. This concept is crucial in understanding how various mathematical objects relate to one another through morphisms, as it establishes a way to map general structures into specific instances while preserving essential features.
+Universal Property
+A defining characteristic of a mathematical object that uniquely identifies it in terms of its relationships with other objects, often leading to the existence of morphisms from or to that object.
+Functoriality
+The principle that relates the structure-preserving mappings (functors) between categories, which reflects how universality can operate across different categories.
+Limit and Colimit
+Concepts in category theory that describe ways to construct new objects from diagrams of other objects, often illustrating universal properties by representing the 'best' approximations in various contexts.
+Separability
+Separability is a concept in algebraic geometry that refers to the property of a morphism between schemes where the fibers over points are finite separable extensions. This idea ties into how morphisms behave and ensures that algebraic structures retain certain nice features, particularly when dealing with field extensions. It is crucial for understanding various results related to the structure and classification of schemes.
+Finite Extension
+A field extension that has finite degree, meaning it can be viewed as a vector space over the base field with finite dimension.
+Separable Polynomial
+A polynomial whose roots are distinct, implying that it does not have multiple roots in its splitting field, leading to a separable extension.
+Galois Theory
+A branch of mathematics that studies the symmetries of roots of polynomial equations and their relationships to field extensions, particularly focusing on separable extensions.
+proj s
+The term 'proj s' refers to the projective spectrum of a graded ring, which is a fundamental construction in algebraic geometry used to study projective varieties. By taking the projective spectrum, we can view homogeneous ideals and their vanishing sets in a geometric context, enabling the connection between algebraic properties and geometric structures. This concept is crucial for understanding morphisms of schemes and their relationships in projective spaces.
+Graded Ring
+A graded ring is a ring that is decomposed into a direct sum of abelian groups such that the product of two elements from the same group results in an element from a specific group.
+Projective Space
+Projective space is a mathematical construct that generalizes the notion of ordinary geometric space, allowing for the study of properties invariant under projection.
+Homogeneous Ideal
+A homogeneous ideal is an ideal in a polynomial ring that is generated by homogeneous polynomials, meaning each polynomial has all its terms of the same degree.
+Chevalley's Theorem
+Chevalley's Theorem states that the image of a constructible set under a morphism of algebraic varieties is also constructible. This theorem is important because it connects the algebraic properties of morphisms with the topological structure of varieties, providing a way to understand how sets behave under mappings. It serves as a bridge between algebraic geometry and more general concepts in topology and analysis.
+Constructible Set
+A constructible set in algebraic geometry is a set that can be built from open sets through finite unions, intersections, and complements, often used in defining the notion of 'size' in terms of topology.
+Morphisms
+Morphisms are structure-preserving maps between algebraic varieties or schemes, allowing one to study their relationships and properties through functions.
+Algebraic Variety
+An algebraic variety is a geometric object defined as the solution set of a system of polynomial equations, forming a central object of study in algebraic geometry.
+Isomorphism of Schemes
+An isomorphism of schemes is a morphism between two schemes that is both a homeomorphism on the underlying topological spaces and induces isomorphisms on the corresponding structure sheaves. This concept indicates a strong form of equivalence between schemes, meaning that they can be considered essentially the same from the perspective of algebraic geometry. Understanding isomorphisms helps clarify how schemes relate to one another in terms of their geometric and algebraic properties.
+Morphisms of Schemes
+A morphism of schemes is a function that respects the structure of both schemes, including their topological and sheaf-theoretic aspects.
+Homeomorphism
+A homeomorphism is a continuous function between two topological spaces that has a continuous inverse, establishing a topological equivalence.
+Structure Sheaf
+The structure sheaf of a scheme assigns a ring of functions to each open set, capturing the local algebraic properties of the scheme.
+spec a
+The term 'spec a' refers to the spectrum of a commutative ring 'a', denoted as 'Spec(a)', which is a fundamental concept in algebraic geometry and scheme theory. It represents a topological space consisting of prime ideals of the ring 'a', where each point corresponds to a prime ideal and carries a structure sheaf, allowing us to study geometric properties in an algebraic context. The connection to schemes arises from the fact that this construction allows us to translate problems in algebra into geometric terms, making it possible to analyze varieties as schemes.
+Prime Ideal
+A prime ideal is an ideal in a ring such that if the product of two elements is in the ideal, at least one of those elements must be in the ideal.
+Sheaf
+A sheaf is a mathematical tool that systematically collects local data attached to the open sets of a topological space, allowing for global constructions and definitions.
+Affine Scheme
+An affine scheme is a type of scheme that is associated with a ring and can be thought of as the spectrum of that ring, providing a way to study properties of algebraic varieties.
+Zariski's Main Theorem
+Zariski's Main Theorem is a fundamental result in algebraic geometry that establishes a relationship between the birational properties of algebraic varieties and their function fields. It essentially states that if two varieties are birationally equivalent, then their function fields are isomorphic, which implies that rational maps between these varieties can be defined. This theorem connects deeply with concepts like morphisms, resolutions of singularities, minimal models, and schemes, playing a pivotal role in understanding the structure and classification of algebraic varieties.
+Birational Equivalence
+A relationship between two algebraic varieties that allows for a rational map in both directions, meaning that they can be related by a sequence of blow-ups and blow-downs.
+Rational Map
+A map between two varieties that is defined by rational functions, which may not be defined on the entirety of the varieties, reflecting the inherent complexity of their relationships.
+Function Field
+A field consisting of rational functions defined on an algebraic variety, capturing the algebraic relationships among the points of the variety.
+Open Immersion
+Open immersion is a type of morphism in algebraic geometry that allows for a locally closed immersion of schemes where the structure sheaf behaves well. It ensures that the pullback of the structure sheaf on an open set is both an open immersion and retains properties associated with locally ringed spaces. This concept bridges the behavior of schemes and their morphisms with the nuances of sheaves and local rings.
+Locally Ringed Space
+A topological space with a sheaf of rings such that each stalk is a local ring, allowing for the study of points and their neighborhood in terms of algebraic properties.
+Structure Sheaf
+A sheaf of rings on a topological space or scheme that encodes the algebraic data relevant to the space, allowing functions defined on open sets to be managed coherently.
+Closed Immersion
+A morphism of schemes where the image is a closed subset, preserving the structure sheaf and making it easy to analyze algebraic properties locally.
+Locally ringed space
+A locally ringed space is a topological space equipped with a sheaf of rings such that each stalk (the fiber of the sheaf at a point) is a local ring. This structure allows for the examination of local properties of spaces, making it crucial in algebraic geometry where one studies schemes and their morphisms. The notion helps connect geometric intuition with algebraic concepts, especially in understanding how functions behave around points in these spaces.
+Sheaf
+A sheaf is a mathematical tool that associates data (like sets or rings) to open subsets of a topological space in a way that is compatible with restriction to smaller open sets.
+Local ring
+A local ring is a commutative ring with a unique maximal ideal, which allows one to focus on properties of elements near this ideal, important for local analysis.
+Stalk
+A stalk is the value of a sheaf at a point, essentially capturing local data around that point and allowing for analysis of functions or sections at a very fine level.
+finite morphism
+A finite morphism is a type of morphism between schemes that is affine and satisfies the condition of being finitely presented, meaning it corresponds to a finite type of ring homomorphism. In simpler terms, this means that the preimage of any affine open set is a scheme that is covered by finitely many affine opens. Finite morphisms are crucial in algebraic geometry as they allow for the analysis of algebraic structures while maintaining a level of compactness and control.
+Affine Morphism
+A morphism between schemes where the preimage of any affine open set is again affine.
+Finitely Presented Module
+A module over a ring that can be generated by a finite number of elements and has a finite number of relations among those generators.
+Galois Morphism
+A morphism that exhibits properties similar to those of Galois extensions in field theory, characterized by a certain symmetry and finiteness conditions.
+Reduced Scheme
+A reduced scheme is a type of scheme where the underlying ring has no non-zero nilpotent elements. This means that for any element in the structure sheaf, if it is nilpotent, then it must be zero. Reduced schemes are crucial in understanding various geometric properties, especially when dealing with singularities and morphisms between schemes, as they maintain a level of 'non-degenerate' behavior.
+Nilpotent Element
+An element in a ring that raises to some power results in zero, meaning there exists a positive integer n such that $a^n = 0$.
+Scheme Morphism
+A morphism between two schemes that preserves the structure of the schemes, allowing for the transfer of information and properties from one scheme to another.
+Singularity
+A point at which a mathematical object is not well-behaved, often characterized by a lack of differentiability or continuity in the context of algebraic geometry.
+fiber product
+The fiber product is a construction in category theory and algebraic geometry that combines two schemes over a common base scheme into a new scheme, reflecting the relationships between them. It allows for a geometric understanding of how different schemes relate when restricted to a specific base. This construction is especially useful when dealing with morphisms and studying properties of varieties under different projections.
+Base change
+A process of changing the base scheme in a fiber product, allowing for the analysis of how morphisms behave under various conditions.
+Product scheme
+The categorical product of schemes, which serves as a generalization of the notion of Cartesian products in set theory.
+Morphisms of schemes
+The structure-preserving maps between schemes that capture the relationships and transformations among them.
+morphism of schemes
+A morphism of schemes is a structure-preserving map between two schemes that respects their underlying topological spaces and their structure sheaves. This concept is essential in understanding how schemes relate to one another, allowing for the comparison of their algebraic properties and geometric features. Morphisms play a crucial role in establishing relationships between affine and projective schemes, as well as providing insights into the behavior of locally ringed spaces through their structure sheaves.
+Sheaf
+A sheaf is a mathematical tool that systematically collects data associated with open sets of a topological space, allowing for local-to-global constructions.
+Affine Scheme
+An affine scheme is a scheme that corresponds to the spectrum of a commutative ring, serving as a fundamental building block in the study of schemes.
+Locally Ringed Space
+A locally ringed space is a topological space equipped with a sheaf of rings such that each stalk is a local ring, facilitating the study of local properties around points.
+spectrum of a ring
+The spectrum of a ring, denoted as Spec(R), is the set of all prime ideals of a commutative ring R, along with a Zariski topology that makes it a topological space. This concept connects algebra and geometry, allowing us to study algebraic varieties through their coordinate rings. By exploring the prime ideals, we gain insights into the structure of the ring and can understand the relationships between geometric objects and their algebraic counterparts.
+Prime Ideal
+A prime ideal in a commutative ring is an ideal P such that if the product of two elements belongs to P, at least one of those elements must be in P.
+Zariski Topology
+The Zariski topology is a topology on the spectrum of a ring where closed sets are defined as the sets of common zeros of collections of polynomials.
+Algebraic Variety
+An algebraic variety is a geometric object defined as the set of solutions to a system of polynomial equations, which can be studied using the properties of its coordinate ring.
+Projective scheme
+A projective scheme is a type of scheme that is constructed by taking a projective variety and associating it with a suitable ringed space. It can be thought of as a geometric object that represents the solutions to polynomial equations in projective space, allowing for a more flexible framework in algebraic geometry. Projective schemes play a crucial role in understanding the properties and relationships between varieties, particularly in connection with morphisms and the embedding of varieties into projective spaces.
+Affine scheme
+An affine scheme is a scheme that corresponds to a ring, particularly the spectrum of a commutative ring, serving as the basic building block in algebraic geometry.
+Morphisms of schemes
+Morphisms of schemes are continuous functions between schemes that respect their structure, allowing for the comparison and mapping of different algebraic varieties.
+Projective space
+Projective space is a geometric space formed by equivalence classes of lines through the origin in a vector space, providing a natural setting for projective schemes.
+Affine Scheme
+An affine scheme is a basic building block in algebraic geometry, defined as the spectrum of a commutative ring. This concept links algebra and geometry by associating geometric objects with algebraic structures, allowing for a systematic way to study varieties and their properties. Affine schemes serve as the foundation for more complex schemes and play a crucial role in understanding morphisms between them, particularly in establishing relationships between algebraic objects and their geometric counterparts.
+Spectrum
+The spectrum of a commutative ring is the set of its prime ideals, equipped with the Zariski topology, which provides a topological space structure to algebraic objects.
+Structure Sheaf
+The structure sheaf assigns a ring of regular functions to each open set of a scheme, allowing one to understand the local properties of the scheme through its functions.
+Morphisms of Schemes
+A morphism of schemes is a function between two schemes that preserves their structure, akin to continuous functions in topology but enriched by the algebraic structure.
+Flat Morphism
+A flat morphism is a type of morphism between schemes that intuitively represents a situation where the fibers of a map behave nicely in terms of dimension and structure. More specifically, it ensures that the pullback of a module is exact, meaning that flatness maintains properties when passing through a morphism, which is crucial in various areas such as deformation theory and algebraic geometry.
+Exact Sequence
+A sequence of modules and homomorphisms where the image of one map equals the kernel of the next, reflecting a certain balance in structure.
+Fiber Product
+The categorical product of two schemes over a third scheme, giving a scheme that captures the idea of 'pulling back' the structure from both sources.
+Locally Ringed Space
+A space that has a stalk for each point, allowing local analysis using rings of functions defined near those points, essential for understanding schemes.
+Continuous Map
+A continuous map is a function between topological spaces that preserves the notion of closeness, meaning that the preimage of any open set is also open. In the context of schemes and their morphisms, continuity plays a crucial role as it ensures that the geometric properties are maintained when moving between different schemes, allowing for meaningful comparisons and transformations.
+Topological Space
+A set equipped with a topology, which defines the structure of open sets and allows for the formalization of concepts like convergence and continuity.
+Morphisms
+Maps between schemes that respect their structure and provide a way to compare or relate different algebraic objects.
+Open Set
+A subset of a topological space that, intuitively, does not include its boundary points and is fundamental in defining continuity and convergence.
+universality
+Universality in the context of schemes and their morphisms refers to a property of certain constructions that can be adapted to a wide range of situations, essentially allowing them to be used as universal examples for other cases. This concept is crucial in understanding how various mathematical objects relate to one another through morphisms, as it establishes a way to map general structures into specific instances while preserving essential features.
+Universal Property
+A defining characteristic of a mathematical object that uniquely identifies it in terms of its relationships with other objects, often leading to the existence of morphisms from or to that object.
+Functoriality
+The principle that relates the structure-preserving mappings (functors) between categories, which reflects how universality can operate across different categories.
+Limit and Colimit
+Concepts in category theory that describe ways to construct new objects from diagrams of other objects, often illustrating universal properties by representing the 'best' approximations in various contexts.
+Separability
+Separability is a concept in algebraic geometry that refers to the property of a morphism between schemes where the fibers over points are finite separable extensions. This idea ties into how morphisms behave and ensures that algebraic structures retain certain nice features, particularly when dealing with field extensions. It is crucial for understanding various results related to the structure and classification of schemes.
+Finite Extension
+A field extension that has finite degree, meaning it can be viewed as a vector space over the base field with finite dimension.
+Separable Polynomial
+A polynomial whose roots are distinct, implying that it does not have multiple roots in its splitting field, leading to a separable extension.
+Galois Theory
+A branch of mathematics that studies the symmetries of roots of polynomial equations and their relationships to field extensions, particularly focusing on separable extensions.
+proj s
+The term 'proj s' refers to the projective spectrum of a graded ring, which is a fundamental construction in algebraic geometry used to study projective varieties. By taking the projective spectrum, we can view homogeneous ideals and their vanishing sets in a geometric context, enabling the connection between algebraic properties and geometric structures. This concept is crucial for understanding morphisms of schemes and their relationships in projective spaces.
+Graded Ring
+A graded ring is a ring that is decomposed into a direct sum of abelian groups such that the product of two elements from the same group results in an element from a specific group.
+Projective Space
+Projective space is a mathematical construct that generalizes the notion of ordinary geometric space, allowing for the study of properties invariant under projection.
+Homogeneous Ideal
+A homogeneous ideal is an ideal in a polynomial ring that is generated by homogeneous polynomials, meaning each polynomial has all its terms of the same degree.
+Chevalley's Theorem
+Chevalley's Theorem states that the image of a constructible set under a morphism of algebraic varieties is also constructible. This theorem is important because it connects the algebraic properties of morphisms with the topological structure of varieties, providing a way to understand how sets behave under mappings. It serves as a bridge between algebraic geometry and more general concepts in topology and analysis.
+Constructible Set
+A constructible set in algebraic geometry is a set that can be built from open sets through finite unions, intersections, and complements, often used in defining the notion of 'size' in terms of topology.
+Morphisms
+Morphisms are structure-preserving maps between algebraic varieties or schemes, allowing one to study their relationships and properties through functions.
+Algebraic Variety
+An algebraic variety is a geometric object defined as the solution set of a system of polynomial equations, forming a central object of study in algebraic geometry.
+Isomorphism of Schemes
+An isomorphism of schemes is a morphism between two schemes that is both a homeomorphism on the underlying topological spaces and induces isomorphisms on the corresponding structure sheaves. This concept indicates a strong form of equivalence between schemes, meaning that they can be considered essentially the same from the perspective of algebraic geometry. Understanding isomorphisms helps clarify how schemes relate to one another in terms of their geometric and algebraic properties.
+Morphisms of Schemes
+A morphism of schemes is a function that respects the structure of both schemes, including their topological and sheaf-theoretic aspects.
+Homeomorphism
+A homeomorphism is a continuous function between two topological spaces that has a continuous inverse, establishing a topological equivalence.
+Structure Sheaf
+The structure sheaf of a scheme assigns a ring of functions to each open set, capturing the local algebraic properties of the scheme.
+spec a
+The term 'spec a' refers to the spectrum of a commutative ring 'a', denoted as 'Spec(a)', which is a fundamental concept in algebraic geometry and scheme theory. It represents a topological space consisting of prime ideals of the ring 'a', where each point corresponds to a prime ideal and carries a structure sheaf, allowing us to study geometric properties in an algebraic context. The connection to schemes arises from the fact that this construction allows us to translate problems in algebra into geometric terms, making it possible to analyze varieties as schemes.
+Prime Ideal
+A prime ideal is an ideal in a ring such that if the product of two elements is in the ideal, at least one of those elements must be in the ideal.
+Sheaf
+A sheaf is a mathematical tool that systematically collects local data attached to the open sets of a topological space, allowing for global constructions and definitions.
+Affine Scheme
+An affine scheme is a type of scheme that is associated with a ring and can be thought of as the spectrum of that ring, providing a way to study properties of algebraic varieties.
+Zariski's Main Theorem
+Zariski's Main Theorem is a fundamental result in algebraic geometry that establishes a relationship between the birational properties of algebraic varieties and their function fields. It essentially states that if two varieties are birationally equivalent, then their function fields are isomorphic, which implies that rational maps between these varieties can be defined. This theorem connects deeply with concepts like morphisms, resolutions of singularities, minimal models, and schemes, playing a pivotal role in understanding the structure and classification of algebraic varieties.
+Birational Equivalence
+A relationship between two algebraic varieties that allows for a rational map in both directions, meaning that they can be related by a sequence of blow-ups and blow-downs.
+Rational Map
+A map between two varieties that is defined by rational functions, which may not be defined on the entirety of the varieties, reflecting the inherent complexity of their relationships.
+Function Field
+A field consisting of rational functions defined on an algebraic variety, capturing the algebraic relationships among the points of the variety.
+Open Immersion
+Open immersion is a type of morphism in algebraic geometry that allows for a locally closed immersion of schemes where the structure sheaf behaves well. It ensures that the pullback of the structure sheaf on an open set is both an open immersion and retains properties associated with locally ringed spaces. This concept bridges the behavior of schemes and their morphisms with the nuances of sheaves and local rings.
+Locally Ringed Space
+A topological space with a sheaf of rings such that each stalk is a local ring, allowing for the study of points and their neighborhood in terms of algebraic properties.
+Structure Sheaf
+A sheaf of rings on a topological space or scheme that encodes the algebraic data relevant to the space, allowing functions defined on open sets to be managed coherently.
+Closed Immersion
+A morphism of schemes where the image is a closed subset, preserving the structure sheaf and making it easy to analyze algebraic properties locally.
+Locally ringed space
+A locally ringed space is a topological space equipped with a sheaf of rings such that each stalk (the fiber of the sheaf at a point) is a local ring. This structure allows for the examination of local properties of spaces, making it crucial in algebraic geometry where one studies schemes and their morphisms. The notion helps connect geometric intuition with algebraic concepts, especially in understanding how functions behave around points in these spaces.
+Sheaf
+A sheaf is a mathematical tool that associates data (like sets or rings) to open subsets of a topological space in a way that is compatible with restriction to smaller open sets.
+Local ring
+A local ring is a commutative ring with a unique maximal ideal, which allows one to focus on properties of elements near this ideal, important for local analysis.
+Stalk
+A stalk is the value of a sheaf at a point, essentially capturing local data around that point and allowing for analysis of functions or sections at a very fine level.
+finite morphism
+A finite morphism is a type of morphism between schemes that is affine and satisfies the condition of being finitely presented, meaning it corresponds to a finite type of ring homomorphism. In simpler terms, this means that the preimage of any affine open set is a scheme that is covered by finitely many affine opens. Finite morphisms are crucial in algebraic geometry as they allow for the analysis of algebraic structures while maintaining a level of compactness and control.
+Affine Morphism
+A morphism between schemes where the preimage of any affine open set is again affine.
+Finitely Presented Module
+A module over a ring that can be generated by a finite number of elements and has a finite number of relations among those generators.
+Galois Morphism
+A morphism that exhibits properties similar to those of Galois extensions in field theory, characterized by a certain symmetry and finiteness conditions.
+Reduced Scheme
+A reduced scheme is a type of scheme where the underlying ring has no non-zero nilpotent elements. This means that for any element in the structure sheaf, if it is nilpotent, then it must be zero. Reduced schemes are crucial in understanding various geometric properties, especially when dealing with singularities and morphisms between schemes, as they maintain a level of 'non-degenerate' behavior.
+Nilpotent Element
+An element in a ring that raises to some power results in zero, meaning there exists a positive integer n such that $a^n = 0$.
+Scheme Morphism
+A morphism between two schemes that preserves the structure of the schemes, allowing for the transfer of information and properties from one scheme to another.
+Singularity
+A point at which a mathematical object is not well-behaved, often characterized by a lack of differentiability or continuity in the context of algebraic geometry.
+fiber product
+The fiber product is a construction in category theory and algebraic geometry that combines two schemes over a common base scheme into a new scheme, reflecting the relationships between them. It allows for a geometric understanding of how different schemes relate when restricted to a specific base. This construction is especially useful when dealing with morphisms and studying properties of varieties under different projections.
+Base change
+A process of changing the base scheme in a fiber product, allowing for the analysis of how morphisms behave under various conditions.
+Product scheme
+The categorical product of schemes, which serves as a generalization of the notion of Cartesian products in set theory.
+Morphisms of schemes
+The structure-preserving maps between schemes that capture the relationships and transformations among them.
+morphism of schemes
+A morphism of schemes is a structure-preserving map between two schemes that respects their underlying topological spaces and their structure sheaves. This concept is essential in understanding how schemes relate to one another, allowing for the comparison of their algebraic properties and geometric features. Morphisms play a crucial role in establishing relationships between affine and projective schemes, as well as providing insights into the behavior of locally ringed spaces through their structure sheaves.
+Sheaf
+A sheaf is a mathematical tool that systematically collects data associated with open sets of a topological space, allowing for local-to-global constructions.
+Affine Scheme
+An affine scheme is a scheme that corresponds to the spectrum of a commutative ring, serving as a fundamental building block in the study of schemes.
+Locally Ringed Space
+A locally ringed space is a topological space equipped with a sheaf of rings such that each stalk is a local ring, facilitating the study of local properties around points.
+spectrum of a ring
+The spectrum of a ring, denoted as Spec(R), is the set of all prime ideals of a commutative ring R, along with a Zariski topology that makes it a topological space. This concept connects algebra and geometry, allowing us to study algebraic varieties through their coordinate rings. By exploring the prime ideals, we gain insights into the structure of the ring and can understand the relationships between geometric objects and their algebraic counterparts.
+Prime Ideal
+A prime ideal in a commutative ring is an ideal P such that if the product of two elements belongs to P, at least one of those elements must be in P.
+Zariski Topology
+The Zariski topology is a topology on the spectrum of a ring where closed sets are defined as the sets of common zeros of collections of polynomials.
+Algebraic Variety
+An algebraic variety is a geometric object defined as the set of solutions to a system of polynomial equations, which can be studied using the properties of its coordinate ring.
+Projective scheme
+A projective scheme is a type of scheme that is constructed by taking a projective variety and associating it with a suitable ringed space. It can be thought of as a geometric object that represents the solutions to polynomial equations in projective space, allowing for a more flexible framework in algebraic geometry. Projective schemes play a crucial role in understanding the properties and relationships between varieties, particularly in connection with morphisms and the embedding of varieties into projective spaces.
+Affine scheme
+An affine scheme is a scheme that corresponds to a ring, particularly the spectrum of a commutative ring, serving as the basic building block in algebraic geometry.
+Morphisms of schemes
+Morphisms of schemes are continuous functions between schemes that respect their structure, allowing for the comparison and mapping of different algebraic varieties.
+Projective space
+Projective space is a geometric space formed by equivalence classes of lines through the origin in a vector space, providing a natural setting for projective schemes.
+Affine Scheme
+An affine scheme is a basic building block in algebraic geometry, defined as the spectrum of a commutative ring. This concept links algebra and geometry by associating geometric objects with algebraic structures, allowing for a systematic way to study varieties and their properties. Affine schemes serve as the foundation for more complex schemes and play a crucial role in understanding morphisms between them, particularly in establishing relationships between algebraic objects and their geometric counterparts.
+Spectrum
+The spectrum of a commutative ring is the set of its prime ideals, equipped with the Zariski topology, which provides a topological space structure to algebraic objects.
+Structure Sheaf
+The structure sheaf assigns a ring of regular functions to each open set of a scheme, allowing one to understand the local properties of the scheme through its functions.
+Morphisms of Schemes
+A morphism of schemes is a function between two schemes that preserves their structure, akin to continuous functions in topology but enriched by the algebraic structure.
+Flat Morphism
+A flat morphism is a type of morphism between schemes that intuitively represents a situation where the fibers of a map behave nicely in terms of dimension and structure. More specifically, it ensures that the pullback of a module is exact, meaning that flatness maintains properties when passing through a morphism, which is crucial in various areas such as deformation theory and algebraic geometry.
+Exact Sequence
+A sequence of modules and homomorphisms where the image of one map equals the kernel of the next, reflecting a certain balance in structure.
+Fiber Product
+The categorical product of two schemes over a third scheme, giving a scheme that captures the idea of 'pulling back' the structure from both sources.
+Locally Ringed Space
+A space that has a stalk for each point, allowing local analysis using rings of functions defined near those points, essential for understanding schemes.
+Continuous Map
+A continuous map is a function between topological spaces that preserves the notion of closeness, meaning that the preimage of any open set is also open. In the context of schemes and their morphisms, continuity plays a crucial role as it ensures that the geometric properties are maintained when moving between different schemes, allowing for meaningful comparisons and transformations.
+Topological Space
+A set equipped with a topology, which defines the structure of open sets and allows for the formalization of concepts like convergence and continuity.
+Morphisms
+Maps between schemes that respect their structure and provide a way to compare or relate different algebraic objects.
+Open Set
+A subset of a topological space that, intuitively, does not include its boundary points and is fundamental in defining continuity and convergence.
+universality
+Universality in the context of schemes and their morphisms refers to a property of certain constructions that can be adapted to a wide range of situations, essentially allowing them to be used as universal examples for other cases. This concept is crucial in understanding how various mathematical objects relate to one another through morphisms, as it establishes a way to map general structures into specific instances while preserving essential features.
+Universal Property
+A defining characteristic of a mathematical object that uniquely identifies it in terms of its relationships with other objects, often leading to the existence of morphisms from or to that object.
+Functoriality
+The principle that relates the structure-preserving mappings (functors) between categories, which reflects how universality can operate across different categories.
+Limit and Colimit
+Concepts in category theory that describe ways to construct new objects from diagrams of other objects, often illustrating universal properties by representing the 'best' approximations in various contexts.
+Separability
+Separability is a concept in algebraic geometry that refers to the property of a morphism between schemes where the fibers over points are finite separable extensions. This idea ties into how morphisms behave and ensures that algebraic structures retain certain nice features, particularly when dealing with field extensions. It is crucial for understanding various results related to the structure and classification of schemes.
+Finite Extension
+A field extension that has finite degree, meaning it can be viewed as a vector space over the base field with finite dimension.
+Separable Polynomial
+A polynomial whose roots are distinct, implying that it does not have multiple roots in its splitting field, leading to a separable extension.
+Galois Theory
+A branch of mathematics that studies the symmetries of roots of polynomial equations and their relationships to field extensions, particularly focusing on separable extensions.
+proj s
+The term 'proj s' refers to the projective spectrum of a graded ring, which is a fundamental construction in algebraic geometry used to study projective varieties. By taking the projective spectrum, we can view homogeneous ideals and their vanishing sets in a geometric context, enabling the connection between algebraic properties and geometric structures. This concept is crucial for understanding morphisms of schemes and their relationships in projective spaces.
+Graded Ring
+A graded ring is a ring that is decomposed into a direct sum of abelian groups such that the product of two elements from the same group results in an element from a specific group.
+Projective Space
+Projective space is a mathematical construct that generalizes the notion of ordinary geometric space, allowing for the study of properties invariant under projection.
+Homogeneous Ideal
+A homogeneous ideal is an ideal in a polynomial ring that is generated by homogeneous polynomials, meaning each polynomial has all its terms of the same degree.
+Chevalley's Theorem
+Chevalley's Theorem states that the image of a constructible set under a morphism of algebraic varieties is also constructible. This theorem is important because it connects the algebraic properties of morphisms with the topological structure of varieties, providing a way to understand how sets behave under mappings. It serves as a bridge between algebraic geometry and more general concepts in topology and analysis.
+Constructible Set
+A constructible set in algebraic geometry is a set that can be built from open sets through finite unions, intersections, and complements, often used in defining the notion of 'size' in terms of topology.
+Morphisms
+Morphisms are structure-preserving maps between algebraic varieties or schemes, allowing one to study their relationships and properties through functions.
+Algebraic Variety
+An algebraic variety is a geometric object defined as the solution set of a system of polynomial equations, forming a central object of study in algebraic geometry.
+Isomorphism of Schemes
+An isomorphism of schemes is a morphism between two schemes that is both a homeomorphism on the underlying topological spaces and induces isomorphisms on the corresponding structure sheaves. This concept indicates a strong form of equivalence between schemes, meaning that they can be considered essentially the same from the perspective of algebraic geometry. Understanding isomorphisms helps clarify how schemes relate to one another in terms of their geometric and algebraic properties.
+Morphisms of Schemes
+A morphism of schemes is a function that respects the structure of both schemes, including their topological and sheaf-theoretic aspects.
+Homeomorphism
+A homeomorphism is a continuous function between two topological spaces that has a continuous inverse, establishing a topological equivalence.
+Structure Sheaf
+The structure sheaf of a scheme assigns a ring of functions to each open set, capturing the local algebraic properties of the scheme.
+spec a
+The term 'spec a' refers to the spectrum of a commutative ring 'a', denoted as 'Spec(a)', which is a fundamental concept in algebraic geometry and scheme theory. It represents a topological space consisting of prime ideals of the ring 'a', where each point corresponds to a prime ideal and carries a structure sheaf, allowing us to study geometric properties in an algebraic context. The connection to schemes arises from the fact that this construction allows us to translate problems in algebra into geometric terms, making it possible to analyze varieties as schemes.
+Prime Ideal
+A prime ideal is an ideal in a ring such that if the product of two elements is in the ideal, at least one of those elements must be in the ideal.
+Sheaf
+A sheaf is a mathematical tool that systematically collects local data attached to the open sets of a topological space, allowing for global constructions and definitions.
+Affine Scheme
+An affine scheme is a type of scheme that is associated with a ring and can be thought of as the spectrum of that ring, providing a way to study properties of algebraic varieties.
+Zariski's Main Theorem
+Zariski's Main Theorem is a fundamental result in algebraic geometry that establishes a relationship between the birational properties of algebraic varieties and their function fields. It essentially states that if two varieties are birationally equivalent, then their function fields are isomorphic, which implies that rational maps between these varieties can be defined. This theorem connects deeply with concepts like morphisms, resolutions of singularities, minimal models, and schemes, playing a pivotal role in understanding the structure and classification of algebraic varieties.
+Birational Equivalence
+A relationship between two algebraic varieties that allows for a rational map in both directions, meaning that they can be related by a sequence of blow-ups and blow-downs.
+Rational Map
+A map between two varieties that is defined by rational functions, which may not be defined on the entirety of the varieties, reflecting the inherent complexity of their relationships.
+Function Field
+A field consisting of rational functions defined on an algebraic variety, capturing the algebraic relationships among the points of the variety.
+Open Immersion
+Open immersion is a type of morphism in algebraic geometry that allows for a locally closed immersion of schemes where the structure sheaf behaves well. It ensures that the pullback of the structure sheaf on an open set is both an open immersion and retains properties associated with locally ringed spaces. This concept bridges the behavior of schemes and their morphisms with the nuances of sheaves and local rings.
+Locally Ringed Space
+A topological space with a sheaf of rings such that each stalk is a local ring, allowing for the study of points and their neighborhood in terms of algebraic properties.
+Structure Sheaf
+A sheaf of rings on a topological space or scheme that encodes the algebraic data relevant to the space, allowing functions defined on open sets to be managed coherently.
+Closed Immersion
+A morphism of schemes where the image is a closed subset, preserving the structure sheaf and making it easy to analyze algebraic properties locally.
+Locally ringed space
+A locally ringed space is a topological space equipped with a sheaf of rings such that each stalk (the fiber of the sheaf at a point) is a local ring. This structure allows for the examination of local properties of spaces, making it crucial in algebraic geometry where one studies schemes and their morphisms. The notion helps connect geometric intuition with algebraic concepts, especially in understanding how functions behave around points in these spaces.
+Sheaf
+A sheaf is a mathematical tool that associates data (like sets or rings) to open subsets of a topological space in a way that is compatible with restriction to smaller open sets.
+Local ring
+A local ring is a commutative ring with a unique maximal ideal, which allows one to focus on properties of elements near this ideal, important for local analysis.
+Stalk
+A stalk is the value of a sheaf at a point, essentially capturing local data around that point and allowing for analysis of functions or sections at a very fine level.
+finite morphism
+A finite morphism is a type of morphism between schemes that is affine and satisfies the condition of being finitely presented, meaning it corresponds to a finite type of ring homomorphism. In simpler terms, this means that the preimage of any affine open set is a scheme that is covered by finitely many affine opens. Finite morphisms are crucial in algebraic geometry as they allow for the analysis of algebraic structures while maintaining a level of compactness and control.
+Affine Morphism
+A morphism between schemes where the preimage of any affine open set is again affine.
+Finitely Presented Module
+A module over a ring that can be generated by a finite number of elements and has a finite number of relations among those generators.
+Galois Morphism
+A morphism that exhibits properties similar to those of Galois extensions in field theory, characterized by a certain symmetry and finiteness conditions.
+Reduced Scheme
+A reduced scheme is a type of scheme where the underlying ring has no non-zero nilpotent elements. This means that for any element in the structure sheaf, if it is nilpotent, then it must be zero. Reduced schemes are crucial in understanding various geometric properties, especially when dealing with singularities and morphisms between schemes, as they maintain a level of 'non-degenerate' behavior.
+Nilpotent Element
+An element in a ring that raises to some power results in zero, meaning there exists a positive integer n such that $a^n = 0$.
+Scheme Morphism
+A morphism between two schemes that preserves the structure of the schemes, allowing for the transfer of information and properties from one scheme to another.
+Singularity
+A point at which a mathematical object is not well-behaved, often characterized by a lack of differentiability or continuity in the context of algebraic geometry.
+fiber product
+The fiber product is a construction in category theory and algebraic geometry that combines two schemes over a common base scheme into a new scheme, reflecting the relationships between them. It allows for a geometric understanding of how different schemes relate when restricted to a specific base. This construction is especially useful when dealing with morphisms and studying properties of varieties under different projections.
+Base change
+A process of changing the base scheme in a fiber product, allowing for the analysis of how morphisms behave under various conditions.
+Product scheme
+The categorical product of schemes, which serves as a generalization of the notion of Cartesian products in set theory.
+Morphisms of schemes
+The structure-preserving maps between schemes that capture the relationships and transformations among them.
+morphism of schemes
+A morphism of schemes is a structure-preserving map between two schemes that respects their underlying topological spaces and their structure sheaves. This concept is essential in understanding how schemes relate to one another, allowing for the comparison of their algebraic properties and geometric features. Morphisms play a crucial role in establishing relationships between affine and projective schemes, as well as providing insights into the behavior of locally ringed spaces through their structure sheaves.
+Sheaf
+A sheaf is a mathematical tool that systematically collects data associated with open sets of a topological space, allowing for local-to-global constructions.
+Affine Scheme
+An affine scheme is a scheme that corresponds to the spectrum of a commutative ring, serving as a fundamental building block in the study of schemes.
+Locally Ringed Space
+A locally ringed space is a topological space equipped with a sheaf of rings such that each stalk is a local ring, facilitating the study of local properties around points.
+spectrum of a ring
+The spectrum of a ring, denoted as Spec(R), is the set of all prime ideals of a commutative ring R, along with a Zariski topology that makes it a topological space. This concept connects algebra and geometry, allowing us to study algebraic varieties through their coordinate rings. By exploring the prime ideals, we gain insights into the structure of the ring and can understand the relationships between geometric objects and their algebraic counterparts.
+Prime Ideal
+A prime ideal in a commutative ring is an ideal P such that if the product of two elements belongs to P, at least one of those elements must be in P.
+Zariski Topology
+The Zariski topology is a topology on the spectrum of a ring where closed sets are defined as the sets of common zeros of collections of polynomials.
+Algebraic Variety
+An algebraic variety is a geometric object defined as the set of solutions to a system of polynomial equations, which can be studied using the properties of its coordinate ring.
+Projective scheme
+A projective scheme is a type of scheme that is constructed by taking a projective variety and associating it with a suitable ringed space. It can be thought of as a geometric object that represents the solutions to polynomial equations in projective space, allowing for a more flexible framework in algebraic geometry. Projective schemes play a crucial role in understanding the properties and relationships between varieties, particularly in connection with morphisms and the embedding of varieties into projective spaces.
+Affine scheme
+An affine scheme is a scheme that corresponds to a ring, particularly the spectrum of a commutative ring, serving as the basic building block in algebraic geometry.
+Morphisms of schemes
+Morphisms of schemes are continuous functions between schemes that respect their structure, allowing for the comparison and mapping of different algebraic varieties.
+Projective space
+Projective space is a geometric space formed by equivalence classes of lines through the origin in a vector space, providing a natural setting for projective schemes.
+Affine Scheme
+An affine scheme is a basic building block in algebraic geometry, defined as the spectrum of a commutative ring. This concept links algebra and geometry by associating geometric objects with algebraic structures, allowing for a systematic way to study varieties and their properties. Affine schemes serve as the foundation for more complex schemes and play a crucial role in understanding morphisms between them, particularly in establishing relationships between algebraic objects and their geometric counterparts.
+Spectrum
+The spectrum of a commutative ring is the set of its prime ideals, equipped with the Zariski topology, which provides a topological space structure to algebraic objects.
+Structure Sheaf
+The structure sheaf assigns a ring of regular functions to each open set of a scheme, allowing one to understand the local properties of the scheme through its functions.
+Morphisms of Schemes
+A morphism of schemes is a function between two schemes that preserves their structure, akin to continuous functions in topology but enriched by the algebraic structure.
