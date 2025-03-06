@@ -98,3 +98,5 @@ elliptic_cohomology_related.html
 duality_in_stable_homotopy_theory.html
 Lie-Rinehart_algebra.html
 abstract_regular_polytope.html
+simplicial_complex_generalizations.html
+cubical_set.html
