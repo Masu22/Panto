@@ -101,3 +101,5 @@ abstract_regular_polytope.html
 simplicial_complex_generalizations.html
 cubical_set.html
 adjoint_functor.html
+generalized_triangulated_category.html
+monoidal_triangulated_category.html
