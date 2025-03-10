@@ -104,3 +104,4 @@ adjoint_functor.html
 generalized_triangulated_category.html
 monoidal_triangulated_category.html
 cotorsion_pair.html
+Grothendieck_construction.html
