@@ -105,3 +105,5 @@ generalized_triangulated_category.html
 monoidal_triangulated_category.html
 cotorsion_pair.html
 Grothendieck_construction.html
+ordinal.html
+locally_presentable_category.html
