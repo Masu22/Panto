@@ -107,3 +107,5 @@ cotorsion_pair.html
 Grothendieck_construction.html
 ordinal.html
 locally_presentable_category.html
+matroid_variations.html
+infinite_matroid.html
