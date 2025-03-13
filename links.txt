@@ -109,3 +109,4 @@ ordinal.html
 locally_presentable_category.html
 matroid_variations.html
 infinite_matroid.html
+polytope_examples.html
