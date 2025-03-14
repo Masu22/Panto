@@ -110,3 +110,6 @@ locally_presentable_category.html
 matroid_variations.html
 infinite_matroid.html
 polytope_examples.html
+projectives_and_injectives.html
+homological_algebra.html
+relative_homological_algebra.html
