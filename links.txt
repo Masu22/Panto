@@ -113,3 +113,4 @@ polytope_examples.html
 projectives_and_injectives.html
 homological_algebra.html
 relative_homological_algebra.html
+differential_cohomology.html
