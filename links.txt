@@ -115,3 +115,4 @@ homological_algebra.html
 relative_homological_algebra.html
 differential_cohomology.html
 weak_topology.html
+history_of_mathematics.html
