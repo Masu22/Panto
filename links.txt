@@ -117,3 +117,4 @@ differential_cohomology.html
 weak_topology.html
 history_of_mathematics.html
 algebraic_K_of_ring.html
+von_Neumann_algebra.html
