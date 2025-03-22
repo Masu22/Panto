@@ -119,3 +119,6 @@ history_of_mathematics.html
 algebraic_K_of_ring.html
 von_Neumann_algebra.html
 homotopy_colimit_theorem.html
+model_structure_on_triangulated_category.html
+Abelian_model_category.html
+triangulated_category.html
