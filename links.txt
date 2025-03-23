@@ -122,3 +122,7 @@ homotopy_colimit_theorem.html
 model_structure_on_triangulated_category.html
 Abelian_model_category.html
 triangulated_category.html
+discrete_Morse.html
+graph_basics.html
+graph_matching.html
+graph.html
