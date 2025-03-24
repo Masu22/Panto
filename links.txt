@@ -126,3 +126,6 @@ discrete_Morse.html
 graph_basics.html
 graph_matching.html
 graph.html
+group.html
+moonshine.html
+operations_on_graph.html
