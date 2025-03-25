@@ -129,3 +129,7 @@ graph.html
 group.html
 moonshine.html
 operations_on_graph.html
+quiver.html
+quiver_simplicial_complex.html
+quiver_homology.html
+graph_complexes.html
