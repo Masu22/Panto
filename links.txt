@@ -133,3 +133,5 @@ quiver.html
 quiver_simplicial_complex.html
 quiver_homology.html
 graph_complexes.html
+simplicial_basics.html
+simplicial_homotopy.html
