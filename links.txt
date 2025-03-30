@@ -137,3 +137,4 @@ simplicial_basics.html
 simplicial_homotopy.html
 polytopes_in_representation_theory.html
 hyperalgebraic_structures.html
+finite_space.html
