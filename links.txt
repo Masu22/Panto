@@ -140,3 +140,5 @@ hyperalgebraic_structures.html
 finite_space.html
 zeta_function_graph.html
 TheoremAB.html
+graph_chromatic.html
+chromatic_graph_invariants.html
