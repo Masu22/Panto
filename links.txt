@@ -142,3 +142,5 @@ zeta_function_graph.html
 TheoremAB.html
 graph_chromatic.html
 chromatic_graph_invariants.html
+hypergeometric_function.html
+polylogarithm.html
