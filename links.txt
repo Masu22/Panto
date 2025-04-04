@@ -144,3 +144,5 @@ graph_chromatic.html
 chromatic_graph_invariants.html
 hypergeometric_function.html
 polylogarithm.html
+homotopy.html
+bisimplicial_object.html
