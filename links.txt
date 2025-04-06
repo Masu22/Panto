@@ -147,3 +147,4 @@ polylogarithm.html
 homotopy.html
 bisimplicial_object.html
 equivariant_homotopy.html
+finite_group_representation.html
