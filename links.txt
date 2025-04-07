@@ -148,3 +148,4 @@ homotopy.html
 bisimplicial_object.html
 equivariant_homotopy.html
 finite_group_representation.html
+cohomology_of_scheme.html
