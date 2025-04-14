@@ -157,3 +157,4 @@ cofibration.html
 pin_variations.html
 generalized_pi1.html
 K_of_varieties.html
+fusion_category.html
