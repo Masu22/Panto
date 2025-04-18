@@ -161,3 +161,4 @@ fusion_category.html
 t-structure.html
 pospace.html
 proset.html
+quasifibration.html
