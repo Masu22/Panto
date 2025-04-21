@@ -164,3 +164,4 @@ proset.html
 quasifibration.html
 right-angled_Coxeter_group.html
 stratified_spaces.html
+derived_category.html
