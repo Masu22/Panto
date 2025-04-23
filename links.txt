@@ -166,3 +166,4 @@ right-angled_Coxeter_group.html
 stratified_spaces.html
 derived_category.html
 quiver_algebras.html
+intersection_homotopy.html
