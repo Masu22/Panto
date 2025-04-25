@@ -169,3 +169,4 @@ quiver_algebras.html
 intersection_homotopy.html
 Grothendieck_group.html
 Grothendieck_monoid.html
+grading.html
