@@ -172,3 +172,4 @@ Grothendieck_monoid.html
 grading.html
 generalized_discrete_Morse.html
 poset_invariants.html
+associahedron_constructions.html
