@@ -176,3 +176,5 @@ associahedron_constructions.html
 quotient_of_category_by_group_action.html
 groups_on_category.html
 perverse_sheaf.html
+multiplihedron.html
+graph_polytopes.html
