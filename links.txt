@@ -178,3 +178,4 @@ groups_on_category.html
 perverse_sheaf.html
 multiplihedron.html
 graph_polytopes.html
+probability.html
