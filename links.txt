@@ -183,3 +183,5 @@ Euclidean_geometry.html
 cell_decomposition_of_manifold.html
 incidence_geometry.html
 bundles.html
+algebraic_loop.html
+projective_space.html
