@@ -185,3 +185,7 @@ incidence_geometry.html
 bundles.html
 algebraic_loop.html
 projective_space.html
+fibered_category.html
+infty_2-category.html
+Gray-tensor_product.html
+additive_category.html
