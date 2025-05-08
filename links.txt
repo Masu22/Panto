@@ -189,3 +189,5 @@ fibered_category.html
 infty_2-category.html
 Gray-tensor_product.html
 additive_category.html
+braided_monoidal_category.html
+PROP.html
