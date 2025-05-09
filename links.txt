@@ -191,3 +191,6 @@ Gray-tensor_product.html
 additive_category.html
 braided_monoidal_category.html
 PROP.html
+BC.html
+nerve.html
+topology_of_small_category.html
