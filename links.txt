@@ -194,3 +194,4 @@ PROP.html
 BC.html
 nerve.html
 topology_of_small_category.html
+exact_category.html
