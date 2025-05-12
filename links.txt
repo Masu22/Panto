@@ -197,3 +197,5 @@ topology_of_small_category.html
 exact_category.html
 generalized_Hochschild.html
 Hochschild_homology.html
+algebra_with_multiple_input.html
+generalized_quandles.html
