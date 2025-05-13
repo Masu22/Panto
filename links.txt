@@ -199,3 +199,6 @@ generalized_Hochschild.html
 Hochschild_homology.html
 algebra_with_multiple_input.html
 generalized_quandles.html
+Minkowski_sum.html
+fiber_polytope.html
+zonotope.html
