@@ -202,3 +202,4 @@ generalized_quandles.html
 Minkowski_sum.html
 fiber_polytope.html
 zonotope.html
+bicategory.html
