@@ -204,3 +204,4 @@ fiber_polytope.html
 zonotope.html
 bicategory.html
 semiring.html
+cyclic_object.html
