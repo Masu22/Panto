@@ -205,3 +205,5 @@ zonotope.html
 bicategory.html
 semiring.html
 cyclic_object.html
+comma_category.html
+category.html
