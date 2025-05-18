@@ -207,3 +207,5 @@ semiring.html
 cyclic_object.html
 comma_category.html
 category.html
+symmetric_group_representation.html
+symmetric_function.html
