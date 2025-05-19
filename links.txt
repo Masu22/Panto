@@ -209,3 +209,4 @@ comma_category.html
 category.html
 symmetric_group_representation.html
 symmetric_function.html
+Mackey_functor.html
