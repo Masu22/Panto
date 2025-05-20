@@ -210,3 +210,7 @@ category.html
 symmetric_group_representation.html
 symmetric_function.html
 Mackey_functor.html
+ordered_set.html
+subdivision_of_small_category.html
+combinatorial_poset.html
+poset_operations.html
