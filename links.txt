@@ -214,3 +214,4 @@ ordered_set.html
 subdivision_of_small_category.html
 combinatorial_poset.html
 poset_operations.html
+simplex.html
