@@ -217,3 +217,4 @@ poset_operations.html
 simplex.html
 persistent_homology.html
 abelian_category.html
+knot_invariants.html
