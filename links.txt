@@ -219,3 +219,4 @@ persistent_homology.html
 abelian_category.html
 knot_invariants.html
 knot_polynomials.html
+small_category_representation.html
