@@ -220,3 +220,5 @@ abelian_category.html
 knot_invariants.html
 knot_polynomials.html
 small_category_representation.html
+small_category_operations.html
+small_category.html
