@@ -223,3 +223,8 @@ small_category_representation.html
 small_category_operations.html
 small_category.html
 matrix.html
+tensor_triangular_geometry.html
+Burnside_ring.html
+Atiyah-Segal_completion_theorem.html
+Segal_conjecture.html
+equivariant_K.html
