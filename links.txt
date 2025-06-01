@@ -232,3 +232,4 @@ generating_model_structure.html
 pseudotopological_space.html
 model_category_of_spaces.html
 locale.html
+Lie_groupoid.html
