@@ -234,3 +234,4 @@ model_category_of_spaces.html
 locale.html
 Lie_groupoid.html
 category_in_physics.html
+Serre-Swan_duality.html
