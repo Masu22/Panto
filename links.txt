@@ -237,3 +237,4 @@ category_in_physics.html
 Serre-Swan_duality.html
 quasiabelian.html
 iterated_monoidal_category.html
+incidence_algebra.html
