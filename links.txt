@@ -242,3 +242,4 @@ Coxeter_system.html
 discrete_model_on_graph.html
 algebras_for_reflections.html
 Temperley-Lieb_algebra.html
+ring_spectrum.html
