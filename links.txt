@@ -243,3 +243,4 @@ discrete_model_on_graph.html
 algebras_for_reflections.html
 Temperley-Lieb_algebra.html
 ring_spectrum.html
+monoid_object.html
