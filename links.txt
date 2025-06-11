@@ -244,3 +244,4 @@ algebras_for_reflections.html
 Temperley-Lieb_algebra.html
 ring_spectrum.html
 monoid_object.html
+models_for_2-vector_spaces.html
