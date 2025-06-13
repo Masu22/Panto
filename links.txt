@@ -247,3 +247,6 @@ monoid_object.html
 models_for_2-vector_spaces.html
 equivariant_bundle.html
 smooth_fiber_bundle.html
+omega-category.html
+infty_n-category.html
+higher_category.html
