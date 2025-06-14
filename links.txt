@@ -250,3 +250,4 @@ smooth_fiber_bundle.html
 omega-category.html
 infty_n-category.html
 higher_category.html
+global_equivariant_homotopy_theory.html
