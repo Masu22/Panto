@@ -251,3 +251,4 @@ omega-category.html
 infty_n-category.html
 higher_category.html
 global_equivariant_homotopy_theory.html
+structured_infty_1-category.html
