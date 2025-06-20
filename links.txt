@@ -255,3 +255,4 @@ structured_infty_1-category.html
 Grothendieck_topology.html
 infinite_dimensional.html
 sphere.html
+Reedy_category.html
