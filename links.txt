@@ -260,3 +260,4 @@ dg_category_variations.html
 exact_category_generalizations.html
 dg_category.html
 category_of_dg_categories.html
+digital_topology.html
