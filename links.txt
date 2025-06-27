@@ -262,3 +262,5 @@ dg_category.html
 category_of_dg_categories.html
 digital_topology.html
 nonmetrizable_manifold.html
+tricategory.html
+EI_category.html
