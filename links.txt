@@ -264,3 +264,4 @@ digital_topology.html
 nonmetrizable_manifold.html
 tricategory.html
 EI_category.html
+curved_structure.html
