@@ -265,3 +265,4 @@ nonmetrizable_manifold.html
 tricategory.html
 EI_category.html
 curved_structure.html
+monoidal_category_with_dual.html
