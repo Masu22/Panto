@@ -266,3 +266,4 @@ tricategory.html
 EI_category.html
 curved_structure.html
 monoidal_category_with_dual.html
+operad_basics.html
