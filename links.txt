@@ -268,3 +268,4 @@ curved_structure.html
 monoidal_category_with_dual.html
 operad_basics.html
 N-dg_algebra.html
+category_as_monoid_object.html
