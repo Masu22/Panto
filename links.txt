@@ -270,3 +270,5 @@ operad_basics.html
 N-dg_algebra.html
 category_as_monoid_object.html
 graph_of_polytope.html
+generalized_monoid.html
+operad_in_algebra.html
