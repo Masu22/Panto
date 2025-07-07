@@ -274,3 +274,4 @@ generalized_monoid.html
 operad_in_algebra.html
 quaternion.html
 octonion.html
+categorification_examples.html
