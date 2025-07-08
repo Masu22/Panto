@@ -275,3 +275,4 @@ operad_in_algebra.html
 quaternion.html
 octonion.html
 categorification_examples.html
+Leibniz_algebra.html
