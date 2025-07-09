@@ -276,3 +276,4 @@ quaternion.html
 octonion.html
 categorification_examples.html
 Leibniz_algebra.html
+equivariant_basics.html
