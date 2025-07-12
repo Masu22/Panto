@@ -281,3 +281,7 @@ toric_topology.html
 homotopy_type_theory.html
 logic.html
 index.html
+homological_stability.html
+configuration_space.html
+operad_of_moduli_space.html
+configuration_space_graph.html
