@@ -285,3 +285,4 @@ homological_stability.html
 configuration_space.html
 operad_of_moduli_space.html
 configuration_space_graph.html
+Lean.html
