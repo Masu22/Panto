@@ -287,3 +287,4 @@ operad_of_moduli_space.html
 configuration_space_graph.html
 Lean.html
 Lie_algebra_generalizations.html
+simplicial_complex.html
