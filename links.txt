@@ -292,3 +292,4 @@ generalized_Morse_theory.html
 flow_category.html
 DGL.html
 deformation_of_algebraic_structure.html
+nonassociative_algebra.html
