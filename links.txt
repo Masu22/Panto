@@ -294,3 +294,4 @@ DGL.html
 deformation_of_algebraic_structure.html
 nonassociative_algebra.html
 crossed_module_variations.html
+monoid.html
