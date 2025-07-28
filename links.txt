@@ -297,3 +297,5 @@ crossed_module_variations.html
 monoid.html
 Dowker_complex.html
 Hopf-cyclic.html
+Bousfield-Kan_localization.html
+monad.html
