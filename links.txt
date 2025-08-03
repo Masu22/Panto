@@ -301,3 +301,5 @@ Bousfield-Kan_localization.html
 monad.html
 Grothendieck_topology_examples.html
 cluster_complex.html
+dendroidal_set.html
+operad_related.html
