@@ -309,3 +309,4 @@ websites.html
 multicomplex.html
 double_complex.html
 chain_complex_variations.html
+generalized_quivers.html
