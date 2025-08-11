@@ -310,3 +310,5 @@ multicomplex.html
 double_complex.html
 chain_complex_variations.html
 generalized_quivers.html
+arrangement_invariants.html
+hyperplane_arrangement.html
