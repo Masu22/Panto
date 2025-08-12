@@ -312,3 +312,4 @@ chain_complex_variations.html
 generalized_quivers.html
 arrangement_invariants.html
 hyperplane_arrangement.html
+linear_monoidal_category.html
