@@ -313,3 +313,6 @@ generalized_quivers.html
 arrangement_invariants.html
 hyperplane_arrangement.html
 linear_monoidal_category.html
+umbral_calculus.html
+formal_power_series.html
+formal_algebra.html
