@@ -316,3 +316,5 @@ linear_monoidal_category.html
 umbral_calculus.html
 formal_power_series.html
 formal_algebra.html
+singular_chain.html
+chain_complex.html
