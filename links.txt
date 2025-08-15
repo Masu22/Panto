@@ -318,3 +318,4 @@ formal_power_series.html
 formal_algebra.html
 singular_chain.html
 chain_complex.html
+associahedron.html
