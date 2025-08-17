@@ -320,3 +320,5 @@ singular_chain.html
 chain_complex.html
 associahedron.html
 matrix_factorization.html
+persistent_homology_descriptor.html
+matroid_applications.html
