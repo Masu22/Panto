@@ -322,3 +322,4 @@ associahedron.html
 matrix_factorization.html
 persistent_homology_descriptor.html
 matroid_applications.html
+graph_groups.html
