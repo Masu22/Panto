@@ -323,3 +323,5 @@ matrix_factorization.html
 persistent_homology_descriptor.html
 matroid_applications.html
 graph_groups.html
+manifold.html
+differential_geometry.html
