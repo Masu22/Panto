@@ -325,3 +325,6 @@ matroid_applications.html
 graph_groups.html
 manifold.html
 differential_geometry.html
+monoidal_category_related.html
+important_classes_of_categories.html
+dagger_category.html
