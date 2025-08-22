@@ -328,3 +328,4 @@ differential_geometry.html
 monoidal_category_related.html
 important_classes_of_categories.html
 dagger_category.html
+symmetric_simplicial_set.html
