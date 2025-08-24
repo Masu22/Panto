@@ -331,3 +331,4 @@ dagger_category.html
 symmetric_simplicial_set.html
 binomial_coefficients.html
 braided_objects.html
+foliation.html
