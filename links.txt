@@ -332,3 +332,6 @@ symmetric_simplicial_set.html
 binomial_coefficients.html
 braided_objects.html
 foliation.html
+noncommutative_algebraic_geometry.html
+Koszul_duality.html
+quadratic_algebra.html
