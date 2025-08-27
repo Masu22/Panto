@@ -335,3 +335,4 @@ foliation.html
 noncommutative_algebraic_geometry.html
 Koszul_duality.html
 quadratic_algebra.html
+generalized_metric.html
