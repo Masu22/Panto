@@ -338,3 +338,4 @@ quadratic_algebra.html
 generalized_metric.html
 complex_analysis.html
 geometric_homology.html
+category_of_bicategories.html
