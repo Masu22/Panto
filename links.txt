@@ -340,3 +340,6 @@ complex_analysis.html
 geometric_homology.html
 category_of_bicategories.html
 cyclic_polytope.html
+reconstruction_theorems.html
+Tannaka-Krein_duality.html
+applied_category_theory.html
