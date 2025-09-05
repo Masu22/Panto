@@ -343,3 +343,4 @@ cyclic_polytope.html
 reconstruction_theorems.html
 Tannaka-Krein_duality.html
 applied_category_theory.html
+sheaf_cohomology.html
