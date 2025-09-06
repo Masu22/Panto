@@ -344,3 +344,4 @@ reconstruction_theorems.html
 Tannaka-Krein_duality.html
 applied_category_theory.html
 sheaf_cohomology.html
+homotopy_limit_in_model_category.html
