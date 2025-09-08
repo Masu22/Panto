@@ -346,3 +346,6 @@ applied_category_theory.html
 sheaf_cohomology.html
 homotopy_limit_in_model_category.html
 combinatorial_simplicial_complex.html
+design.html
+automorphism_group.html
+universal_category.html
