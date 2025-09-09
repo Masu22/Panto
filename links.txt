@@ -349,3 +349,4 @@ combinatorial_simplicial_complex.html
 design.html
 automorphism_group.html
 universal_category.html
+cosheaf.html
