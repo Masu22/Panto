@@ -350,3 +350,5 @@ design.html
 automorphism_group.html
 universal_category.html
 cosheaf.html
+group_algebra.html
+stable_infty-category.html
