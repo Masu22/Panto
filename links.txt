@@ -353,3 +353,4 @@ cosheaf.html
 group_algebra.html
 stable_infty-category.html
 condensed_object.html
+generalized_knot.html
