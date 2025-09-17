@@ -358,3 +358,4 @@ polynomial.html
 braid_group.html
 generalized_braid_groups.html
 2-vector_bundle.html
+enriched_category_generalizations.html
