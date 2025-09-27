@@ -363,3 +363,4 @@ complex_reflection_group.html
 closure_space.html
 exceptional_Lie_group.html
 metric_space.html
+chemistry.html
