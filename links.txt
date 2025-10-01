@@ -366,3 +366,4 @@ metric_space.html
 chemistry.html
 torsion.html
 exotic_spaces.html
+generalized_manifold.html
