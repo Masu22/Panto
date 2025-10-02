@@ -367,3 +367,5 @@ chemistry.html
 torsion.html
 exotic_spaces.html
 generalized_manifold.html
+compactness.html
+numerable_covering.html
