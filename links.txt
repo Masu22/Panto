@@ -370,3 +370,5 @@ generalized_manifold.html
 compactness.html
 numerable_covering.html
 crossed_module.html
+tropical_geometry.html
+tropical_mathematics.html
