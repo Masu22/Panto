@@ -372,3 +372,4 @@ numerable_covering.html
 crossed_module.html
 tropical_geometry.html
 tropical_mathematics.html
+hyperfield.html
