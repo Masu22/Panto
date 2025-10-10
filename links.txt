@@ -373,3 +373,10 @@ crossed_module.html
 tropical_geometry.html
 tropical_mathematics.html
 hyperfield.html
+delooping_machine.html
+Gamma.html
+F1-geometry.html
+Segal_space.html
+Gamma-space.html
+algebraic_theory.html
+generalized_simplicial_object.html
