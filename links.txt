@@ -380,3 +380,5 @@ Segal_space.html
 Gamma-space.html
 algebraic_theory.html
 generalized_simplicial_object.html
+categorical_measure_theory.html
+ultrafilter_monad.html
