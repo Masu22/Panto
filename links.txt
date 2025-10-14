@@ -382,3 +382,6 @@ algebraic_theory.html
 generalized_simplicial_object.html
 categorical_measure_theory.html
 ultrafilter_monad.html
+telescope_conjecture.html
+nilpotence_theorem.html
+from_stable_homotopy_to_homological_algebra.html
