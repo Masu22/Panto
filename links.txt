@@ -387,3 +387,4 @@ nilpotence_theorem.html
 from_stable_homotopy_to_homological_algebra.html
 generalized_Abelian_category.html
 scissors_congruence.html
+Deligne_conjecture.html
