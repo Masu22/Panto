@@ -391,3 +391,5 @@ Deligne_conjecture.html
 quantum_deformation_of_Lie_algebra.html
 cohomology_in_physics.html
 right-angled_Artin_group.html
+matroid_Tutte_polynomial.html
+cut-and-paste_K-theory.html
