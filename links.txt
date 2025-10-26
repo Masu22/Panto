@@ -394,3 +394,6 @@ right-angled_Artin_group.html
 matroid_Tutte_polynomial.html
 cut-and-paste_K-theory.html
 category_with_something.html
+Waldhausen_K.html
+algebraic_K_of_infty-category.html
+algebraic_K.html
