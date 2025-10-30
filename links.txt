@@ -398,3 +398,5 @@ Waldhausen_K.html
 algebraic_K_of_infty-category.html
 algebraic_K.html
 Frobenius_algebra.html
+amplituhedron.html
+total_positivity.html
