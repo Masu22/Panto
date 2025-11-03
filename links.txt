@@ -402,3 +402,4 @@ amplituhedron.html
 total_positivity.html
 algebraic_constructions.html
 cobordism_category.html
+origami.html
