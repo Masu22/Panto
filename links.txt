@@ -404,3 +404,4 @@ algebraic_constructions.html
 cobordism_category.html
 origami.html
 spectral_sequence_in_algebraic_topology.html
+physics_and_algebraic_geometry.html
