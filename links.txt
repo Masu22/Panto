@@ -412,3 +412,5 @@ unstable_ASS.html
 noncontinuous.html
 profunctor.html
 derived_algebraic_geometry.html
+formal_group_law.html
+MU.html
