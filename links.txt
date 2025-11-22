@@ -418,3 +418,4 @@ generalized_string_topology.html
 simplicial_complex_from_matroid.html
 matroid_geometric_invariants.html
 bilinear.html
+semialgebraic_set.html
