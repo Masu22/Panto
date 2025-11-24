@@ -420,3 +420,5 @@ matroid_geometric_invariants.html
 bilinear.html
 semialgebraic_set.html
 positive_geometry.html
+quantum_automorphism_group.html
+Cstar.html
