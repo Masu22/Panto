@@ -422,3 +422,4 @@ semialgebraic_set.html
 positive_geometry.html
 quantum_automorphism_group.html
 Cstar.html
+FI.html
