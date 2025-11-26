@@ -423,3 +423,6 @@ positive_geometry.html
 quantum_automorphism_group.html
 Cstar.html
 FI.html
+Lie_algebra_in_homotopy_theory.html
+Lie_algebra.html
+Samelson_and_Whitehead_product.html
