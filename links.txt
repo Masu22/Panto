@@ -426,3 +426,4 @@ FI.html
 Lie_algebra_in_homotopy_theory.html
 Lie_algebra.html
 Samelson_and_Whitehead_product.html
+test_category.html
