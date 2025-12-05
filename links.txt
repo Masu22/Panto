@@ -430,3 +430,4 @@ test_category.html
 pointed_Hopf_algebra.html
 differential_category.html
 intersection_homology.html
+quiver_homotopy.html
