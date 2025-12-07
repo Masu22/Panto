@@ -432,3 +432,4 @@ differential_category.html
 intersection_homology.html
 quiver_homotopy.html
 Waldhausen_category.html
+bar-joint_framework.html
