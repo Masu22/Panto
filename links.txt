@@ -443,3 +443,4 @@ music.html
 engineering.html
 social_science.html
 linguistics.html
+generalized_symplectic_structure.html
