@@ -444,3 +444,5 @@ engineering.html
 social_science.html
 linguistics.html
 generalized_symplectic_structure.html
+generalized_topology.html
+ringed_space.html
