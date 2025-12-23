@@ -447,3 +447,5 @@ generalized_symplectic_structure.html
 generalized_topology.html
 ringed_space.html
 Jordan_algebra.html
+set_theory_basics.html
+universe.html
