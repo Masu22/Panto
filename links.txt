@@ -451,3 +451,4 @@ set_theory_basics.html
 universe.html
 MacPhersonian.html
 Richard_Thompson_groups.html
+basic_homological_algebra.html
