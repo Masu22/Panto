@@ -452,3 +452,4 @@ universe.html
 MacPhersonian.html
 Richard_Thompson_groups.html
 basic_homological_algebra.html
+regular_polytope.html
