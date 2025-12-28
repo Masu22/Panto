@@ -453,3 +453,5 @@ MacPhersonian.html
 Richard_Thompson_groups.html
 basic_homological_algebra.html
 regular_polytope.html
+homology_of_manifold.html
+quantum_cohomology.html
