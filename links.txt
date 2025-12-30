@@ -455,3 +455,4 @@ basic_homological_algebra.html
 regular_polytope.html
 homology_of_manifold.html
 quantum_cohomology.html
+Adams_operation.html
