@@ -456,3 +456,6 @@ regular_polytope.html
 homology_of_manifold.html
 quantum_cohomology.html
 Adams_operation.html
+KK.html
+Kasparov_category.html
+bivariant_algebraic_K.html
