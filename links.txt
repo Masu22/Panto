@@ -463,3 +463,4 @@ amenability.html
 biology.html
 random_topology.html
 numerical_algebraic_geometry.html
+moduli.html
