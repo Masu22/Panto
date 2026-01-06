@@ -464,3 +464,7 @@ biology.html
 random_topology.html
 numerical_algebraic_geometry.html
 moduli.html
+model_category_examples.html
+little_cube_operad.html
+model_structure_on_poset.html
+E_n-operad.html
