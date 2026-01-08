@@ -468,3 +468,5 @@ model_category_examples.html
 little_cube_operad.html
 model_structure_on_poset.html
 E_n-operad.html
+abstract_polytope.html
+combinatorial_polytope.html
