@@ -472,3 +472,4 @@ abstract_polytope.html
 combinatorial_polytope.html
 symmetric_monoidal_category_of_spectra.html
 spectrum.html
+embedded_graph.html
