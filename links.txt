@@ -473,3 +473,4 @@ combinatorial_polytope.html
 symmetric_monoidal_category_of_spectra.html
 spectrum.html
 embedded_graph.html
+triangulated_category_invariants.html
