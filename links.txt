@@ -476,3 +476,4 @@ embedded_graph.html
 triangulated_category_invariants.html
 simplicial_complex_as_higher_dimensional_graph.html
 generalized_homology.html
+cellular_stratification.html
