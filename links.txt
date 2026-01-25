@@ -479,3 +479,4 @@ generalized_homology.html
 cellular_stratification.html
 poset_homology.html
 polytope_invariants.html
+orbifold_homotopy.html
