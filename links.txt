@@ -480,3 +480,4 @@ cellular_stratification.html
 poset_homology.html
 polytope_invariants.html
 orbifold_homotopy.html
+Floer_homotopy_type.html
