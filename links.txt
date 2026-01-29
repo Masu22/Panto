@@ -483,3 +483,4 @@ orbifold_homotopy.html
 Floer_homotopy_type.html
 Hopf_algebra_generalizations.html
 arrangement.html
+higher_bundles.html
