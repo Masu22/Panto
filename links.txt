@@ -484,3 +484,6 @@ Floer_homotopy_type.html
 Hopf_algebra_generalizations.html
 arrangement.html
 higher_bundles.html
+tiling.html
+topological_K.html
+sphere_packing.html
