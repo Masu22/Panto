@@ -487,3 +487,4 @@ higher_bundles.html
 tiling.html
 topological_K.html
 sphere_packing.html
+higher_groupoid.html
