@@ -490,3 +490,4 @@ sphere_packing.html
 higher_groupoid.html
 vector_bundle.html
 topological_groupoid.html
+gerbe.html
