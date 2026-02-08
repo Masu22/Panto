@@ -491,3 +491,5 @@ higher_groupoid.html
 vector_bundle.html
 topological_groupoid.html
 gerbe.html
+matroid_invariants.html
+matroid_numerical_invariants.html
