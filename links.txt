@@ -495,3 +495,4 @@ matroid_invariants.html
 matroid_numerical_invariants.html
 topological_space.html
 simplicial_category.html
+infinite_graph.html
